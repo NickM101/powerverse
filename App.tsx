@@ -11,12 +11,9 @@ import HomeScreen from './src/features/home/HomeScreen';
 const App = () => {
   return (
     <Provider store={store}>
-      <ThemeManager>
-        <SafeAreaView>
           <HomeScreen />
-        </SafeAreaView>
-      </ThemeManager>
     </Provider>
   );
 };
+
 export default App;

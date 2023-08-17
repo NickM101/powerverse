@@ -1,21 +1,21 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-import FastImage from 'react-native-fast-image';
+import {View, Text, StyleSheet, Image} from 'react-native';
 import {BlurView} from '@react-native-community/blur';
 
 interface FlatListCardProps {
   imageSource: string;
   text: string;
+  item: number;
 }
 
-const FlatListCard: React.FC<FlatListCardProps> = ({imageSource, text}) => {
+const FlatListCard: React.FC<FlatListCardProps> = ({
+  imageSource,
+  text,
+  item,
+}) => {
   return (
     <View style={styles.container}>
-      <FastImage
-        source={{uri: imageSource}}
-        style={styles.image}
-        resizeMode={FastImage.resizeMode.cover}
-      />
+      <Image key={item} source={{uri: imageSource}} style={styles.image} />
       <BlurView
         style={styles.blur}
         blurType="dark"
@@ -29,15 +29,17 @@ const FlatListCard: React.FC<FlatListCardProps> = ({imageSource, text}) => {
 
 const styles = StyleSheet.create({
   container: {
-    width: '60%',
-    height: '70%',
+    height: 300,
+    width: 300,
+    marginRight: 10,
     borderRadius: 10,
     overflow: 'hidden',
   },
   image: {
-    width: '100%',
-    height: '100%',
+    width: 300,
+    height: 300,
     borderRadius: 15,
+    resizeMode: 'cover',
   },
   blur: {
     position: 'absolute',

@@ -15,12 +15,10 @@ export const superheroApi = createApi({
         await Promise.all(
           ids.map(async id => {
             const result = await fetchWithBQ(`${id}`);
-            console.log('Result', result)
             return characters.push(result.data);
           }),
         );
 
-        console.log('Charcters', characters);
 
         return characters.length > 0
           ? {data: characters}
