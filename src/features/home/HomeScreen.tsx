@@ -9,8 +9,13 @@ const HomeScreen = () => {
   // const data = superheroApi.endpoints.getCharacters.useQuery(idsToFetch);
 
   return (
-    <View className="flex">
-      <FlatListCard />
+    <View>
+      <FlatListCard
+        imageSource={
+          'https://www.befunky.com/images/prismic/82e0e255-17f9-41e0-85f1-210163b0ea34_hero-blur-image-3.jpg?auto=avif,webp&format=jpg&width=896'
+        }
+        text={'Batman'}
+      />
     </View>
   );
 };

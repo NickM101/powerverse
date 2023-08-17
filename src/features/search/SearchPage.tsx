@@ -8,8 +8,8 @@ const SearchPage = () => {
   const searchedCharacter = useAppSelector(state => state.search.character);
   const dispatch = useAppDispatch();
   return (
-    <View className="flex pt-3">
-      <Text className="text-center">{searchedCharacter}</Text>
+    <View>
+      <Text>{searchedCharacter}</Text>
       <Button title="Search" onPress={() => dispatch(search())} />
     </View>
   );
