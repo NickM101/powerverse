@@ -15,6 +15,8 @@
     "react": "18.2.0",
     "react-hook-form": "^7.45.4",
     "react-native": "0.72.4",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-image-colors": "^2.3.0",
     "react-native-linear-gradient": "^2.8.2",
     "react-redux": "^8.1.2"
   },
@@ -35,6 +37,7 @@
     "metro-react-native-babel-preset": "0.76.8",
     "prettier": "^2.4.1",
     "react-native-dotenv": "^3.4.9",
+    "react-native-flipper-performance-plugin": "^0.4.0",
     "react-test-renderer": "18.2.0",
     "typescript": "4.8.4"
   },

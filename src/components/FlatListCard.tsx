@@ -5,7 +5,7 @@ import {BlurView} from '@react-native-community/blur';
 interface FlatListCardProps {
   imageSource: string;
   text: string;
-  item: number;
+  item: string;
 }
 
 const FlatListCard: React.FC<FlatListCardProps> = ({
