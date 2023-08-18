@@ -1,21 +1,33 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
+import FastImage from 'react-native-fast-image';
 import {BlurView} from '@react-native-community/blur';
 
 interface FlatListCardProps {
   imageSource: string;
   text: string;
-  item: string;
+  item: any;
+  type?: number;
+  height?: number;
+  width?: number;
 }
 
 const FlatListCard: React.FC<FlatListCardProps> = ({
   imageSource,
   text,
   item,
+  type = 1,
+  height = 300,
+  width = 300,
 }) => {
   return (
-    <View style={styles.container}>
-      <Image key={item} source={{uri: imageSource}} style={styles.image} />
+    <View style={[styles.container, {height, width}]}>
+      <FastImage
+        key={item}
+        source={{uri: imageSource}}
+        style={[type === 1 ? styles.image : styles.image2, {height, width}]}
+        resizeMode={FastImage.resizeMode.cover}
+      />
       <BlurView
         style={styles.blur}
         blurType="dark"
@@ -29,17 +41,15 @@ const FlatListCard: React.FC<FlatListCardProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    height: 300,
-    width: 300,
-    marginRight: 10,
     borderRadius: 10,
     overflow: 'hidden',
   },
   image: {
-    width: 300,
-    height: 300,
     borderRadius: 15,
-    resizeMode: 'cover',
+  },
+  image2: {
+    height: '100%',
+    width: '100%',
   },
   blur: {
     position: 'absolute',
@@ -50,7 +60,7 @@ const styles = StyleSheet.create({
   },
   overlayText: {
     position: 'absolute',
-    bottom: 20,
+    bottom: 25,
     left: 20,
     color: 'white',
     fontSize: 18,

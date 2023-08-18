@@ -6,6 +6,8 @@ import SuperheroResponse from '../../types/superheroTypes';
 
 const ITEM_HEIGHT = 300; // fixed height of item component
 
+const Separator = () => <View style={styles.margin} />;
+
 const HomeScreen = () => {
   const idsToFetch = [489, 260, 289, 522, 538, 546, 70];
 
@@ -47,6 +49,7 @@ const HomeScreen = () => {
         showsHorizontalScrollIndicator={false}
         alwaysBounceVertical={false}
         getItemLayout={getItemLayout}
+        ItemSeparatorComponent={Separator}
       />
     </View>
   );
@@ -61,6 +64,9 @@ const styles = StyleSheet.create({
   },
   flatListContent: {
     paddingHorizontal: 10,
+  },
+  margin: {
+    marginRight: 10,
   },
 });
 
