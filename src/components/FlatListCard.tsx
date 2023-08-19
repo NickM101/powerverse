@@ -1,7 +1,8 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Pressable} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {BlurView} from '@react-native-community/blur';
+import {useNavigation} from '@react-navigation/native';
 
 interface FlatListCardProps {
   imageSource: string;
@@ -20,8 +21,15 @@ const FlatListCard: React.FC<FlatListCardProps> = ({
   height = 300,
   width = 300,
 }) => {
+  const navigation = useNavigation();
+
+  const onHandlePressed = () => {
+    return navigation.navigate('Detail', {image: imageSource, name: text});
+  };
   return (
-    <View style={[styles.container, {height, width}]}>
+    <Pressable
+      style={[styles.container, {height, width}]}
+      onPress={onHandlePressed}>
       <FastImage
         key={item}
         source={{uri: imageSource}}
@@ -35,7 +43,7 @@ const FlatListCard: React.FC<FlatListCardProps> = ({
         overlayColor="rgba(252, 252, 252, 0.0)"
       />
       <Text style={styles.overlayText}>{text}</Text>
-    </View>
+    </Pressable>
   );
 };
 

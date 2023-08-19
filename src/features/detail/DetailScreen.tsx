@@ -5,7 +5,8 @@ import FlatListCard from '../../components/FlatListCard';
 
 const {width, height} = Dimensions.get('window');
 
-const DetailScreen = () => {
+const DetailScreen = ({ route }) => {
+  const {image,name} = route.params;
   // ref
   const bottomSheetModalRef = useRef<BottomSheetModal>(null);
   const bottomSheetModalRef2 = useRef<BottomSheetModal>(null);
@@ -35,11 +36,9 @@ const DetailScreen = () => {
   return (
     <View style={styles.container}>
       <FlatListCard
-        imageSource={
-          'https://www.superherodb.com/pictures2/portraits/10/100/639.jpg'
-        }
-        text="Batman"
-        item="Batman"
+        imageSource={image}
+        text={name}
+        item={name}
         height={height * 0.5}
         width={width}
       />
