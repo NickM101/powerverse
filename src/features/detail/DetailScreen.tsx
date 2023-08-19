@@ -2,11 +2,15 @@ import {StyleSheet, View, Text, Dimensions} from 'react-native';
 import React, {useMemo, useRef, useEffect} from 'react';
 import {BottomSheetModal, BottomSheetModalProvider} from '@gorhom/bottom-sheet';
 import FlatListCard from '../../components/FlatListCard';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import RootStackParamList from '../../types/navigationTypes';
 
 const {width, height} = Dimensions.get('window');
 
-const DetailScreen = ({ route }) => {
-  const {image,name} = route.params;
+type Props = NativeStackScreenProps<RootStackParamList, 'Detail'>;
+
+const DetailScreen = ({route}: Props) => {
+  const {character_image, character_name} = route.params;
   // ref
   const bottomSheetModalRef = useRef<BottomSheetModal>(null);
   const bottomSheetModalRef2 = useRef<BottomSheetModal>(null);
@@ -36,9 +40,9 @@ const DetailScreen = ({ route }) => {
   return (
     <View style={styles.container}>
       <FlatListCard
-        imageSource={image}
-        text={name}
-        item={name}
+        imageSource={character_image}
+        text={character_name}
+        item={character_name}
         height={height * 0.5}
         width={width}
       />
