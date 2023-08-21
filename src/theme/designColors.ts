@@ -1,3 +1,16 @@
+interface ModeColors {
+  dark: boolean;
+  colors: {
+    primary: string;
+    background: string;
+    card: string;
+    text: string;
+    border: string;
+    notification: string;
+    button: string;
+  };
+}
+
 const lightModeColors = {
   dark: false,
   colors: {
@@ -7,6 +20,7 @@ const lightModeColors = {
     text: '#333333',
     border: '#E0E0E0',
     notification: '#FF9900',
+    button: '#1B3358',
   },
 };
 
@@ -19,7 +33,9 @@ const darkModeColors = {
     text: '#FFFFFF',
     border: '#D9D9D9',
     notification: '#F5D7DB',
+    button: '#1B3358',
   },
 };
 
 export {lightModeColors, darkModeColors};
+export type {ModeColors};

@@ -5,7 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '../features/home/HomeScreen';
 import DetailScreen from '../features/detail/DetailScreen';
 import RootStackParamList from '../types/navigationTypes';
-import {darkModeColors, lightModeColors} from '../theme/Colors';
+import {darkModeColors, lightModeColors} from '../theme/designColors';
 import {useAppSelector, useAppDispatch} from '../hooks/reduxHooks';
 import ProfilePage from '../features/profile/ProfilePage';
 import {useColorScheme} from 'react-native';

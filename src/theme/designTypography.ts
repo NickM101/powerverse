@@ -6,26 +6,45 @@ const sourceSansPro = 'SourceSansPro-Regular';
 
 // Define typography styles
 interface TypographyStyles {
-  heading1: TextStyle;
-  heading2: TextStyle;
-  bodyText: TextStyle;
+  headline: TextStyle;
+  title: TextStyle;
+  regular: TextStyle;
+  small: TextStyle;
+  caption: TextStyle;
+  button: TextStyle;
 }
 
 export const typographyStyles: TypographyStyles = StyleSheet.create({
-  heading1: {
+  headline: {
+    fontFamily: merriweather,
+    fontSize: 26,
+    lineHeight: 36,
+    fontWeight: 'bold',
+  },
+  title: {
     fontFamily: merriweather,
     fontSize: 24,
     lineHeight: 32,
     fontWeight: 'bold',
   },
-  heading2: {
+  regular: {
     fontFamily: merriweather,
-    fontSize: 20,
-    lineHeight: 28,
+    fontSize: 16,
+    lineHeight: 24,
     fontWeight: 'bold',
   },
-  bodyText: {
+  small: {
     fontFamily: sourceSansPro,
+    fontSize: 16,
+    lineHeight: 24,
+  },
+  caption: {
+    fontFamily: sourceSansPro,
+    fontSize: 16,
+    lineHeight: 24,
+  },
+  button: {
+    fontFamily: merriweather,
     fontSize: 16,
     lineHeight: 24,
   },

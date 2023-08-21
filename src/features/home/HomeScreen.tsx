@@ -3,6 +3,7 @@ import {FlatList, ListRenderItem, StyleSheet, View} from 'react-native';
 import FlatListCard from '../../components/FlatListCard';
 import {superheroApi} from '../../services/superheroapi';
 import SuperheroResponse from '../../types/superheroTypes';
+import CustomButton from '../../components/CustomButton';
 
 const ITEM_HEIGHT = 300; // fixed height of item component
 
@@ -40,6 +41,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
+      <CustomButton />
       <FlatList
         horizontal
         initialNumToRender={3}
