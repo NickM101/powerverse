@@ -2,7 +2,7 @@ const lightModeColors = {
   dark: false,
   colors: {
     primary: '#F1916D',
-    background: '#FAF9F6',
+    background: '#f2f3fa',
     card: '#F5D7DB',
     text: '#333333',
     border: '#E0E0E0',

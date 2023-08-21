@@ -19,7 +19,6 @@ export const superheroApi = createApi({
           }),
         );
 
-
         return characters.length > 0
           ? {data: characters}
           : {

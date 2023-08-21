@@ -3,10 +3,12 @@ import {setupListeners} from '@reduxjs/toolkit/query';
 
 import searchReducer from '../features/search/searchSlice';
 import {superheroApi} from '../services/superheroapi';
+import themeReducer from './slice/themeSlice';
 
 export const store = configureStore({
   reducer: {
     search: searchReducer,
+    theme: themeReducer,
     [superheroApi.reducerPath]: superheroApi.reducer,
   },
   middleware: getDefaultMiddleware =>
