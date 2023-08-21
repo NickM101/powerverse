@@ -1,8 +1,9 @@
 import {StyleSheet, TextStyle} from 'react-native';
 
 // Define fonts
-const merriweather = 'Merriweather-Regular';
-const sourceSansPro = 'SourceSansPro-Regular';
+const merriweather_bold = 'Merriweather-Bold';
+const merriweather_regular = 'Merriweather-Regular';
+const SourceSans3_regular = 'SourceSans3-Regular';
 
 // Define typography styles
 interface TypographyStyles {
@@ -16,35 +17,35 @@ interface TypographyStyles {
 
 export const typographyStyles: TypographyStyles = StyleSheet.create({
   headline: {
-    fontFamily: merriweather,
+    fontFamily: merriweather_regular,
     fontSize: 26,
     lineHeight: 36,
     fontWeight: 'bold',
   },
   title: {
-    fontFamily: merriweather,
+    fontFamily: merriweather_regular,
     fontSize: 24,
     lineHeight: 32,
     fontWeight: 'bold',
   },
   regular: {
-    fontFamily: merriweather,
+    fontFamily: merriweather_regular,
     fontSize: 16,
     lineHeight: 24,
     fontWeight: 'bold',
   },
   small: {
-    fontFamily: sourceSansPro,
+    fontFamily: SourceSans3_regular,
     fontSize: 16,
     lineHeight: 24,
   },
   caption: {
-    fontFamily: sourceSansPro,
+    fontFamily: SourceSans3_regular,
     fontSize: 16,
     lineHeight: 24,
   },
   button: {
-    fontFamily: merriweather,
+    fontFamily: merriweather_bold,
     fontSize: 16,
     lineHeight: 24,
   },

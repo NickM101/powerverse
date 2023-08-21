@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Merriweather-Black.ttf",
+      "sha1": "d62fa43472ef4248e8b447a0ff0ab283e0475448"
+    },
+    {
+      "path": "assets/fonts/Merriweather-Bold.ttf",
+      "sha1": "09c7429408c624b9991c44e9975a9129fb2d2fe7"
+    },
+    {
+      "path": "assets/fonts/Merriweather-Italic.ttf",
+      "sha1": "478b1c3fbc794a290270be7e4ec052e14a89579d"
+    },
+    {
+      "path": "assets/fonts/Merriweather-Regular.ttf",
+      "sha1": "f4e7810e4e20d1932d3d7994bb6f6456280ee6bd"
+    },
+    {
+      "path": "assets/fonts/SourceSans3-Bold.ttf",
+      "sha1": "a993d50429a5d7c6defdee0e9dddb9afe94c098f"
+    },
+    {
+      "path": "assets/fonts/SourceSans3-Italic.ttf",
+      "sha1": "ebe504c62f00ae9b36d1fd56a00fb89d144e568c"
+    },
+    {
+      "path": "assets/fonts/SourceSans3-Medium.ttf",
+      "sha1": "e71fd5d17b04768a0667cf5cb1e637d8c780103d"
+    },
+    {
+      "path": "assets/fonts/SourceSans3-Regular.ttf",
+      "sha1": "9b68aa1db60830073d1429a87e8ff0be48f0718d"
+    },
+    {
+      "path": "assets/fonts/SourceSans3-SemiBold.ttf",
+      "sha1": "b38e94c86cc93f9f54dd3e9f6f1c59af2a30b2a6"
+    }
+  ]
+}

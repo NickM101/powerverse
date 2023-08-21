@@ -4,6 +4,7 @@ import {useTheme} from '@react-navigation/native';
 
 import {GlobalStyles} from '../theme';
 import {ModeColors} from '../theme/designColors';
+import {typographyStyles} from '../theme/designTypography';
 
 const CustomButton = () => {
   const {colors} = useTheme() as ModeColors;
@@ -12,7 +13,9 @@ const CustomButton = () => {
     <Pressable
       style={[GlobalStyles.button, {backgroundColor: colors.button}]}
       onPress={() => {}}>
-      <Text style={{color: colors.background}}>Get Started</Text>
+      <Text style={[typographyStyles.button, {color: colors.background}]}>
+        Get Started
+      </Text>
     </Pressable>
   );
 };
