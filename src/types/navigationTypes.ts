@@ -1,8 +1,10 @@
-type RootStackParamList = {
+export type RootStackParamList = {
   Home: undefined;
-  Detail: {character_image: string; character_name: string};
+  Detail: {character_id: string};
   Search: undefined;
   Profile: undefined;
 };
 
-export default RootStackParamList;
+export type Nav = {
+  navigate: (value: string, params: object) => void;
+};

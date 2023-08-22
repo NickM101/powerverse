@@ -9,7 +9,7 @@ export const superheroApi = createApi({
   baseQuery: fetchBaseQuery({baseUrl: API_URL}),
   refetchOnReconnect: true,
   endpoints: build => ({
-    getCharacters: build.query<SuperheroResponse, Array<number>>({
+    getCharacters: build.query<Array<SuperheroResponse>, Array<number>>({
       async queryFn(ids, _queryApi, _extraOptions, fetchWithBQ) {
         let characters: any[] = [];
         await Promise.all(
@@ -19,9 +19,10 @@ export const superheroApi = createApi({
           }),
         );
 
-        return characters.length > 0
+        return characters.length
           ? {data: characters}
           : {
+              data: [],
               error: {
                 status: 500,
                 statusText: 'Internal Server Error',

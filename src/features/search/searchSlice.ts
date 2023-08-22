@@ -28,14 +28,17 @@ export const searchSlice = createSlice({
   reducers: {
     setSearchCharacter: (state, action: PayloadAction<string>) => {
       state.searchCharacter = action.payload;
-      searchSlice.caseReducers.setSuggestions(state);
+
+      if (state.searchCharacter.trim() === '') {
+        state.suggestions = []; // Reset suggestions to empty array
+      } else {
+        searchSlice.caseReducers.setSuggestions(state);
+      }
     },
     setSuggestions: state => {
       const filteredSuggestions = state.characters.filter(item =>
         item.name.toLowerCase().includes(state.searchCharacter.toLowerCase()),
       );
-
-      console.log(filteredSuggestions);
 
       state.suggestions = filteredSuggestions;
     },

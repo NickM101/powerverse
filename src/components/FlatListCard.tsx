@@ -3,23 +3,21 @@ import {Text, StyleSheet, Pressable} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {BlurView} from '@react-native-community/blur';
 import {useNavigation} from '@react-navigation/native';
+import {Nav} from '../types/navigationTypes';
 
 interface FlatListCardProps {
   imageSource: string;
   text: string;
-  item: any;
+  id: string;
   type?: number;
   height?: number;
   width?: number;
 }
 
-type Nav = {
-  navigate: (value: string, params: object) => void;
-};
 const FlatListCard: React.FC<FlatListCardProps> = ({
   imageSource,
   text,
-  item,
+  id,
   type = 1,
   height = 300,
   width = 300,
@@ -36,12 +34,11 @@ const FlatListCard: React.FC<FlatListCardProps> = ({
       style={[styles.container, {height, width}]}
       onPress={() =>
         navigation.navigate('Detail', {
-          character_image: imageSource,
-          character_name: text,
+          character_id: id,
         })
       }>
       <FastImage
-        key={item}
+        key={id}
         source={{uri: imageSource}}
         style={[type === 1 ? styles.image : styles.image2, {height, width}]}
         resizeMode={FastImage.resizeMode.cover}

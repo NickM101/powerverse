@@ -3,14 +3,14 @@ import React, {useMemo, useRef, useEffect} from 'react';
 import {BottomSheetModal, BottomSheetModalProvider} from '@gorhom/bottom-sheet';
 import FlatListCard from '../../components/FlatListCard';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import RootStackParamList from '../../types/navigationTypes';
+import {RootStackParamList} from '../../types/navigationTypes';
 
 const {width, height} = Dimensions.get('window');
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Detail'>;
 
 const DetailScreen = ({route}: Props) => {
-  const {character_image, character_name} = route.params;
+  const {character_id} = route.params;
   // ref
   const bottomSheetModalRef = useRef<BottomSheetModal>(null);
   const bottomSheetModalRef2 = useRef<BottomSheetModal>(null);

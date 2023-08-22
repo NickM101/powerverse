@@ -19,7 +19,7 @@ const HomeScreen = () => {
       <FlatListCard
         imageSource={item.image.url}
         text={item.name}
-        item={item.id}
+        id={item.id}
       />
     ),
     [],

@@ -4,13 +4,13 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '../features/home/HomeScreen';
 import DetailScreen from '../features/detail/DetailScreen';
-import RootStackParamList from '../types/navigationTypes';
 import {darkModeColors, lightModeColors} from '../theme/designColors';
 import {useAppSelector, useAppDispatch} from '../hooks/reduxHooks';
 import ProfilePage from '../features/profile/ProfilePage';
 import {useColorScheme} from 'react-native';
 import {setThemeMode} from '../redux/slice/themeSlice';
 import SearchPage from '../features/search/SearchPage';
+import {RootStackParamList} from '../types/navigationTypes';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
@@ -27,7 +27,7 @@ const RootNavigator = () => {
     <NavigationContainer theme={mode}>
       <RootStack.Navigator
         screenOptions={{headerShown: false}}
-        initialRouteName="Search">
+        initialRouteName="Home">
         <RootStack.Screen name="Home" component={HomeScreen} />
         <RootStack.Screen name="Detail" component={DetailScreen} />
         <RootStack.Screen name="Search" component={SearchPage} />

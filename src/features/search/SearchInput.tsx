@@ -1,22 +1,45 @@
-import React from 'react';
-import {Text, TextInput, View} from 'react-native';
+import React, {useCallback} from 'react';
+import {
+  FlatList,
+  ListRenderItem,
+  Pressable,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 import {useAppDispatch} from '../../hooks/reduxHooks';
 import {
+  Character,
   selectSearchCharacter,
   selectSuggestions,
   setSearchCharacter,
 } from './searchSlice';
 import {useSelector} from 'react-redux';
-import {typographyStyles} from '../../theme/designTypography';
-import {useTheme} from '@react-navigation/native';
-import {ModeColors} from '../../theme/designColors';
+import {useNavigation} from '@react-navigation/native';
+import {Nav} from '../../types/navigationTypes';
+
 // import Autocomplete from 'react-native-autocomplete-input';
 
 const SearchInput = () => {
+  const navigation = useNavigation<Nav>();
+
   const dispatch = useAppDispatch();
-  const {colors} = useTheme() as ModeColors;
   const searchCharacter = useSelector(selectSearchCharacter);
   const suggestions = useSelector(selectSuggestions);
+
+  const renderItem: ListRenderItem<Character> = useCallback(
+    ({item}) => (
+      <Pressable
+        onPress={() =>
+          navigation.navigate('Detail', {
+            character_id: item.id,
+          })
+        }>
+        <Text>{item.name}</Text>
+      </Pressable>
+    ),
+    [navigation],
+  );
 
   return (
     <View>
@@ -25,17 +48,7 @@ const SearchInput = () => {
         value={searchCharacter}
         onChangeText={text => dispatch(setSearchCharacter(text))}
       />
-      <Text style={[typographyStyles.regular, {color: colors.text}]}>
-        {searchCharacter}
-      </Text>
-      <Text style={[typographyStyles.regular, {color: colors.text}]}>
-        {suggestions.length}
-      </Text>
-      {suggestions.map(item => (
-        <Text style={[typographyStyles.regular, {color: colors.text}]}>
-          {item.name}
-        </Text>
-      ))}
+      <FlatList data={suggestions} renderItem={renderItem} />
     </View>
   );
 };
