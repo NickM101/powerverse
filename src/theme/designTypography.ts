@@ -1,9 +1,11 @@
 import {StyleSheet, TextStyle} from 'react-native';
+import {fontPixel} from './normalize';
 
 // Define fonts
 const merriweather_bold = 'Merriweather-Bold';
 const merriweather_regular = 'Merriweather-Regular';
 const SourceSans3_regular = 'SourceSans3-Regular';
+// const SourceSans3_bold = 'SourceSans3-Bold';
 
 // Define typography styles
 interface TypographyStyles {
@@ -46,7 +48,7 @@ export const typographyStyles: TypographyStyles = StyleSheet.create({
   },
   button: {
     fontFamily: merriweather_bold,
-    fontSize: 16,
-    lineHeight: 24,
+    fontSize: fontPixel(20),
+    letterSpacing: 0,
   },
 });

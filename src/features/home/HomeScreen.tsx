@@ -26,7 +26,7 @@ const HomeScreen = () => {
   );
 
   const keyExtractor = useCallback(
-    (items: SuperheroResponse) => items.id.toString(),
+    (items: SuperheroResponse) => items?.id?.toString(),
     [],
   );
 
