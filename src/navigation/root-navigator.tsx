@@ -10,6 +10,7 @@ import {useAppSelector, useAppDispatch} from '../hooks/reduxHooks';
 import ProfilePage from '../features/profile/ProfilePage';
 import {useColorScheme} from 'react-native';
 import {setThemeMode} from '../redux/slice/themeSlice';
+import SearchPage from '../features/search/SearchPage';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
@@ -26,9 +27,10 @@ const RootNavigator = () => {
     <NavigationContainer theme={mode}>
       <RootStack.Navigator
         screenOptions={{headerShown: false}}
-        initialRouteName="Home">
+        initialRouteName="Search">
         <RootStack.Screen name="Home" component={HomeScreen} />
         <RootStack.Screen name="Detail" component={DetailScreen} />
+        <RootStack.Screen name="Search" component={SearchPage} />
         <RootStack.Screen name="Profile" component={ProfilePage} />
       </RootStack.Navigator>
     </NavigationContainer>
