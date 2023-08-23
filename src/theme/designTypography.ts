@@ -2,52 +2,49 @@ import {StyleSheet, TextStyle} from 'react-native';
 import {fontPixel} from './normalize';
 
 // Define fonts
-const merriweather_bold = 'Merriweather-Bold';
-const merriweather_regular = 'Merriweather-Regular';
-const SourceSans3_regular = 'SourceSans3-Regular';
-// const SourceSans3_bold = 'SourceSans3-Bold';
+const rubik_bold = 'Rubik-Bold';
+const rubik_medium = 'Rubik-Medium';
+const rubik_regular = 'Rubik-Regular';
+const rubik_italic = 'Rubik-Italic';
 
 // Define typography styles
 interface TypographyStyles {
   headline: TextStyle;
   title: TextStyle;
-  regular: TextStyle;
-  small: TextStyle;
-  caption: TextStyle;
+  body: TextStyle;
+  label: TextStyle;
+  subtext: TextStyle;
   button: TextStyle;
 }
 
 export const typographyStyles: TypographyStyles = StyleSheet.create({
   headline: {
-    fontFamily: merriweather_regular,
-    fontSize: 26,
+    fontFamily: rubik_bold,
+    fontSize: fontPixel(26),
     lineHeight: 36,
-    fontWeight: 'bold',
   },
   title: {
-    fontFamily: merriweather_regular,
-    fontSize: 24,
-    lineHeight: 32,
-    fontWeight: 'bold',
-  },
-  regular: {
-    fontFamily: merriweather_regular,
-    fontSize: 16,
-    lineHeight: 24,
-    fontWeight: 'bold',
-  },
-  small: {
-    fontFamily: SourceSans3_regular,
-    fontSize: 16,
+    fontFamily: rubik_bold,
+    fontSize: fontPixel(16),
     lineHeight: 24,
   },
-  caption: {
-    fontFamily: SourceSans3_regular,
-    fontSize: 16,
+  body: {
+    fontFamily: rubik_regular,
+    fontSize: fontPixel(16),
     lineHeight: 24,
+  },
+  label: {
+    fontFamily: rubik_medium,
+    fontSize: fontPixel(16),
+    lineHeight: 24,
+  },
+  subtext: {
+    fontFamily: rubik_italic,
+    fontSize: fontPixel(10),
+    lineHeight: 13,
   },
   button: {
-    fontFamily: merriweather_bold,
+    fontFamily: rubik_medium,
     fontSize: fontPixel(20),
     letterSpacing: 0,
   },
