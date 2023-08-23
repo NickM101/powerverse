@@ -1,0 +1,3492 @@
+[
+  {
+    "id": "1",
+    "name": "A-Bomb",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "2",
+    "name": "Abe Sapien",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "3",
+    "name": "Abin Sur",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "4",
+    "name": "Abomination",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "5",
+    "name": "Abraxas",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "6",
+    "name": "Absorbing Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "8",
+    "name": "Adam Strange",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "9",
+    "name": "Agent 13",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "10",
+    "name": "Agent Bob",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "11",
+    "name": "Agent Zero",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "12",
+    "name": "Air-Walker",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "13",
+    "name": "Ajax",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "14",
+    "name": "Alan Scott",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "15",
+    "name": "Alex Mercer",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "17",
+    "name": "Alfred Pennyworth",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "18",
+    "name": "Alien",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "19",
+    "name": "Allan Quatermain",
+    "publisher": "Wildstorm"
+  },
+  {
+    "id": "20",
+    "name": "Amazo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "21",
+    "name": "Ammo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "23",
+    "name": "Angel",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "24",
+    "name": "Angel",
+    "publisher": "Buffy the Vampire Slayer"
+  },
+  {
+    "id": "25",
+    "name": "Angel Dust",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "26",
+    "name": "Angel Salvadore",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "27",
+    "name": "Angela",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "28",
+    "name": "Animal Man",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "29",
+    "name": "Annihilus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "30",
+    "name": "Ant-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "31",
+    "name": "Ant-Man II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "32",
+    "name": "Anti-Monitor",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "33",
+    "name": "Anti-Spawn",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "34",
+    "name": "Anti-Venom",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "35",
+    "name": "Apocalypse",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "36",
+    "name": "Aquababy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "37",
+    "name": "Aqualad",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "38",
+    "name": "Aquaman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "39",
+    "name": "Arachne",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "40",
+    "name": "Archangel",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "41",
+    "name": "Arclight",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "42",
+    "name": "Ardina",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "43",
+    "name": "Ares",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "44",
+    "name": "Ariel",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "45",
+    "name": "Armor",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "46",
+    "name": "Arsenal",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "47",
+    "name": "Astro Boy",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "48",
+    "name": "Atlas",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "49",
+    "name": "Atlas",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "50",
+    "name": "Atom",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "51",
+    "name": "Atom",
+    "publisher": "Wildstorm"
+  },
+  {
+    "id": "52",
+    "name": "Atom Girl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "53",
+    "name": "Atom II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "54",
+    "name": "Atom III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "55",
+    "name": "Atom IV",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "56",
+    "name": "Aurora",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "57",
+    "name": "Azazel",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "58",
+    "name": "Azrael",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "59",
+    "name": "Aztar",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "60",
+    "name": "Bane",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "61",
+    "name": "Banshee",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "62",
+    "name": "Bantam",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "63",
+    "name": "Batgirl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "64",
+    "name": "Batgirl",
+    "publisher": "Batman"
+  },
+  {
+    "id": "65",
+    "name": "Batgirl III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "66",
+    "name": "Batgirl IV",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "67",
+    "name": "Batgirl V",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "68",
+    "name": "Batgirl VI",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "69",
+    "name": "Batman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "70",
+    "name": "Batman",
+    "publisher": "Batman"
+  },
+  {
+    "id": "71",
+    "name": "Batman II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "72",
+    "name": "Battlestar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "73",
+    "name": "Batwoman V",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "74",
+    "name": "Beak",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "75",
+    "name": "Beast",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "76",
+    "name": "Beast Boy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "77",
+    "name": "Beetle",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "78",
+    "name": "Ben 10",
+    "publisher": "Wildstorm"
+  },
+  {
+    "id": "79",
+    "name": "Beta Ray Bill",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "80",
+    "name": "Beyonder",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "81",
+    "name": "Big Barda",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "82",
+    "name": "Big Daddy",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "83",
+    "name": "Big Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "85",
+    "name": "Billy Kincaid",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "86",
+    "name": "Binary",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "87",
+    "name": "Bionic Woman",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "88",
+    "name": "Bird-Brain",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "89",
+    "name": "Bird-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "90",
+    "name": "Bird-Man II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "91",
+    "name": "Birdman",
+    "publisher": "Hanna-Barbera"
+  },
+  {
+    "id": "92",
+    "name": "Bishop",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "93",
+    "name": "Bizarro",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "94",
+    "name": "Black Abbott",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "95",
+    "name": "Black Adam",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "96",
+    "name": "Black Bolt",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "97",
+    "name": "Black Canary",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "98",
+    "name": "Black Canary",
+    "publisher": "Birds of Prey"
+  },
+  {
+    "id": "99",
+    "name": "Black Cat",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "100",
+    "name": "Black Flash",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "101",
+    "name": "Black Goliath",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "102",
+    "name": "Black Knight III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "103",
+    "name": "Black Lightning",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "104",
+    "name": "Black Mamba",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "105",
+    "name": "Black Manta",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "106",
+    "name": "Black Panther",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "107",
+    "name": "Black Widow",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "108",
+    "name": "Black Widow II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "109",
+    "name": "Blackout",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "110",
+    "name": "Blackwing",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "111",
+    "name": "Blackwulf",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "112",
+    "name": "Blade",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "113",
+    "name": "Blaquesmith",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "114",
+    "name": "Bling!",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "115",
+    "name": "Blink",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "116",
+    "name": "Blizzard",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "117",
+    "name": "Blizzard",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "118",
+    "name": "Blizzard II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "119",
+    "name": "Blob",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "120",
+    "name": "Bloodaxe",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "121",
+    "name": "Bloodhawk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "122",
+    "name": "Bloodwraith",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "123",
+    "name": "Blue Beetle",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "124",
+    "name": "Blue Beetle",
+    "publisher": "Charlton Comics"
+  },
+  {
+    "id": "125",
+    "name": "Blue Beetle II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "126",
+    "name": "Blue Beetle III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "127",
+    "name": "Boba Fett",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "128",
+    "name": "Bolt",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "129",
+    "name": "Bomb Queen",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "130",
+    "name": "Boom-Boom",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "131",
+    "name": "Boomer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "132",
+    "name": "Booster Gold",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "133",
+    "name": "Box",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "134",
+    "name": "Box III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "135",
+    "name": "Box IV",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "136",
+    "name": "Brainiac",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "137",
+    "name": "Brainiac 5",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "138",
+    "name": "Brother Voodoo",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "139",
+    "name": "Brundlefly",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "140",
+    "name": "Buffy",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "141",
+    "name": "Bullseye",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "142",
+    "name": "Bumblebee",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "143",
+    "name": "Bumbleboy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "144",
+    "name": "Bushido",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "145",
+    "name": "Cable",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "146",
+    "name": "Callisto",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "148",
+    "name": "Cannonball",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "149",
+    "name": "Captain America",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "150",
+    "name": "Captain Atom",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "151",
+    "name": "Captain Britain",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "152",
+    "name": "Captain Cold",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "153",
+    "name": "Captain Epic",
+    "publisher": "Epic Comics"
+  },
+  {
+    "id": "154",
+    "name": "Captain Hindsight",
+    "publisher": "South Park"
+  },
+  {
+    "id": "155",
+    "name": "Captain Mar-vell",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "156",
+    "name": "Captain Marvel",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "157",
+    "name": "Captain Marvel",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "158",
+    "name": "Captain Marvel II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "159",
+    "name": "Captain Midnight",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "160",
+    "name": "Captain Planet",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "161",
+    "name": "Captain Universe",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "162",
+    "name": "Carnage",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "163",
+    "name": "Cat",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "164",
+    "name": "Cat II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "165",
+    "name": "Catwoman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "166",
+    "name": "Cecilia Reyes",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "167",
+    "name": "Century",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "168",
+    "name": "Cerebra",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "169",
+    "name": "Chamber",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "170",
+    "name": "Chameleon",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "171",
+    "name": "Changeling",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "172",
+    "name": "Cheetah",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "173",
+    "name": "Cheetah II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "174",
+    "name": "Cheetah III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "175",
+    "name": "Chromos",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "176",
+    "name": "Chuck Norris",
+    "publisher": "Bluewater Productions"
+  },
+  {
+    "id": "177",
+    "name": "Citizen Steel",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "179",
+    "name": "Clea",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "180",
+    "name": "Cloak",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "181",
+    "name": "Clock King",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "182",
+    "name": "Cogliostro",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "184",
+    "name": "Colossal Boy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "185",
+    "name": "Colossus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "186",
+    "name": "Copycat",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "187",
+    "name": "Corsair",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "188",
+    "name": "Cottonmouth",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "189",
+    "name": "Crimson Crusader",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "190",
+    "name": "Crimson Dynamo",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "191",
+    "name": "Crystal",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "192",
+    "name": "Curse",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "193",
+    "name": "Cy-Gor",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "194",
+    "name": "Cyborg",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "195",
+    "name": "Cyborg Superman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "196",
+    "name": "Cyclops",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "197",
+    "name": "Cypher",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "198",
+    "name": "Dagger",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "201",
+    "name": "Daredevil",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "202",
+    "name": "Darkhawk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "203",
+    "name": "Darkman",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "204",
+    "name": "Darkseid",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "205",
+    "name": "Darkside",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "206",
+    "name": "Darkstar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "207",
+    "name": "Darth Maul",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "208",
+    "name": "Darth Vader",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "210",
+    "name": "Data",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "211",
+    "name": "Dazzler",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "212",
+    "name": "Deadman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "213",
+    "name": "Deadpool",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "214",
+    "name": "Deadshot",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "215",
+    "name": "Deathlok",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "216",
+    "name": "Deathstroke",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "217",
+    "name": "Demogoblin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "218",
+    "name": "Destroyer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "219",
+    "name": "Diamondback",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "221",
+    "name": "Doc Samson",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "222",
+    "name": "Doctor Doom",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "223",
+    "name": "Doctor Doom II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "224",
+    "name": "Doctor Fate",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "225",
+    "name": "Doctor Octopus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "226",
+    "name": "Doctor Strange",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "227",
+    "name": "Domino",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "228",
+    "name": "Donatello",
+    "publisher": "Mirage Studios"
+  },
+  {
+    "id": "229",
+    "name": "Donna Troy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "230",
+    "name": "Doomsday",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "231",
+    "name": "Doppelganger",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "232",
+    "name": "Dormammu",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "233",
+    "name": "Dr. Manhattan",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "234",
+    "name": "Drax the Destroyer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "235",
+    "name": "Ego",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "236",
+    "name": "Elastigirl",
+    "publisher": "Pixar"
+  },
+  {
+    "id": "237",
+    "name": "Electro",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "238",
+    "name": "Elektra",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "240",
+    "name": "Elongated Man",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "241",
+    "name": "Emma Frost",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "242",
+    "name": "Enchantress",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "243",
+    "name": "Energy",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "245",
+    "name": "Ethan Hunt",
+    "publisher": "Mission: Impossible"
+  },
+  {
+    "id": "246",
+    "name": "Etrigan",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "247",
+    "name": "Evil Deadpool",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "248",
+    "name": "Evilhawk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "249",
+    "name": "Exodus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "250",
+    "name": "Fabian Cortez",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "251",
+    "name": "Falcon",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "252",
+    "name": "Fallen One II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "253",
+    "name": "Faora",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "254",
+    "name": "Feral",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "255",
+    "name": "Fighting Spirit",
+    "publisher": "Top Cow Productions"
+  },
+  {
+    "id": "256",
+    "name": "Fin Fang Foom",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "257",
+    "name": "Firebird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "258",
+    "name": "Firelord",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "259",
+    "name": "Firestar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "260",
+    "name": "Firestorm",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "261",
+    "name": "Firestorm",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "262",
+    "name": "Fixer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "263",
+    "name": "Flash",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "264",
+    "name": "Flash Gordon",
+    "publisher": "King Features Syndicate"
+  },
+  {
+    "id": "265",
+    "name": "Flash II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "266",
+    "name": "Flash III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "267",
+    "name": "Flash IV",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "268",
+    "name": "Forge",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "269",
+    "name": "Franklin Richards",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "270",
+    "name": "Franklin Storm",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "271",
+    "name": "Frenzy",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "272",
+    "name": "Frigga",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "273",
+    "name": "Galactus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "274",
+    "name": "Gambit",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "275",
+    "name": "Gamora",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "276",
+    "name": "Garbage Man",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "278",
+    "name": "General Zod",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "279",
+    "name": "Genesis",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "280",
+    "name": "Ghost Rider",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "281",
+    "name": "Ghost Rider II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "282",
+    "name": "Giant-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "283",
+    "name": "Giant-Man II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "284",
+    "name": "Giganta",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "285",
+    "name": "Gladiator",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "286",
+    "name": "Goblin Queen",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "287",
+    "name": "Godzilla",
+    "publisher": "Toho"
+  },
+  {
+    "id": "288",
+    "name": "Gog",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "289",
+    "name": "Goku",
+    "publisher": "Shueisha"
+  },
+  {
+    "id": "290",
+    "name": "Goliath",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "291",
+    "name": "Goliath",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "292",
+    "name": "Goliath",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "293",
+    "name": "Goliath IV",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "294",
+    "name": "Gorilla Grodd",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "295",
+    "name": "Granny Goodness",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "296",
+    "name": "Gravity",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "297",
+    "name": "Greedo",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "298",
+    "name": "Green Arrow",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "299",
+    "name": "Green Goblin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "300",
+    "name": "Green Goblin II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "301",
+    "name": "Green Goblin III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "302",
+    "name": "Green Goblin IV",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "303",
+    "name": "Groot",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "304",
+    "name": "Guardian",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "305",
+    "name": "Guy Gardner",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "306",
+    "name": "Hal Jordan",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "307",
+    "name": "Han Solo",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "308",
+    "name": "Hancock",
+    "publisher": "Columbia Pictures"
+  },
+  {
+    "id": "309",
+    "name": "Harley Quinn",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "310",
+    "name": "Harry Potter",
+    "publisher": "Warner Bros."
+  },
+  {
+    "id": "311",
+    "name": "Havok",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "312",
+    "name": "Hawk",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "313",
+    "name": "Hawkeye",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "314",
+    "name": "Hawkeye II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "315",
+    "name": "Hawkgirl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "316",
+    "name": "Hawkman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "317",
+    "name": "Hawkwoman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "318",
+    "name": "Hawkwoman II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "319",
+    "name": "Hawkwoman III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "320",
+    "name": "Heat Wave",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "321",
+    "name": "Hela",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "322",
+    "name": "Hellboy",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "323",
+    "name": "Hellcat",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "324",
+    "name": "Hellstorm",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "325",
+    "name": "Hercules",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "327",
+    "name": "Hit-Girl",
+    "publisher": "Icon Comics"
+  },
+  {
+    "id": "328",
+    "name": "Hobgoblin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "329",
+    "name": "Hollow",
+    "publisher": "Top Cow Productions"
+  },
+  {
+    "id": "330",
+    "name": "Hope Summers",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "331",
+    "name": "Howard the Duck",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "332",
+    "name": "Hulk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "333",
+    "name": "Human Torch",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "334",
+    "name": "Huntress",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "335",
+    "name": "Husk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "336",
+    "name": "Hybrid",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "337",
+    "name": "Hydro-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "338",
+    "name": "Hyperion",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "339",
+    "name": "Iceman",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "340",
+    "name": "Impulse",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "341",
+    "name": "Indiana Jones",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "342",
+    "name": "Indigo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "343",
+    "name": "Ink",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "344",
+    "name": "Invisible Woman",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "345",
+    "name": "Iron Fist",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "346",
+    "name": "Iron Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "347",
+    "name": "Iron Monger",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "348",
+    "name": "Isis",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "349",
+    "name": "Jack Bauer",
+    "publisher": "24"
+  },
+  {
+    "id": "350",
+    "name": "Jack of Hearts",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "351",
+    "name": "Jack-Jack",
+    "publisher": "Pixar"
+  },
+  {
+    "id": "352",
+    "name": "James Bond",
+    "publisher": "Ian Fleming"
+  },
+  {
+    "id": "353",
+    "name": "James T. Kirk",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "354",
+    "name": "Jar Jar Binks",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "355",
+    "name": "Jason Bourne",
+    "publisher": "The Bourne Series"
+  },
+  {
+    "id": "356",
+    "name": "Jean Grey",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "357",
+    "name": "Jean-Luc Picard",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "358",
+    "name": "Jennifer Kale",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "359",
+    "name": "Jesse Quick",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "360",
+    "name": "Jessica Cruz",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "361",
+    "name": "Jessica Jones",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "363",
+    "name": "Jigsaw",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "366",
+    "name": "Johann Krauss",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "367",
+    "name": "John Constantine",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "368",
+    "name": "John Stewart",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "369",
+    "name": "John Wraith",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "370",
+    "name": "Joker",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "371",
+    "name": "Jolt",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "372",
+    "name": "Jubilee",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "373",
+    "name": "Judge Dredd",
+    "publisher": "2000 AD"
+  },
+  {
+    "id": "374",
+    "name": "Juggernaut",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "375",
+    "name": "Junkpile",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "376",
+    "name": "Justice",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "377",
+    "name": "Jyn Erso",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "378",
+    "name": "K-2SO",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "379",
+    "name": "Kang",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "380",
+    "name": "Kathryn Janeway",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "381",
+    "name": "Katniss Everdeen",
+    "publisher": "The Hunger Games"
+  },
+  {
+    "id": "382",
+    "name": "Kevin 11",
+    "publisher": "Ben 10"
+  },
+  {
+    "id": "383",
+    "name": "Kick-Ass",
+    "publisher": "Icon Comics"
+  },
+  {
+    "id": "384",
+    "name": "Kid Flash",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "385",
+    "name": "Kid Flash II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "386",
+    "name": "Killer Croc",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "387",
+    "name": "Killer Frost",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "388",
+    "name": "Kilowog",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "389",
+    "name": "King Kong",
+    "publisher": "Universal Pictures"
+  },
+  {
+    "id": "390",
+    "name": "King Shark",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "391",
+    "name": "Kingpin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "392",
+    "name": "Klaw",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "393",
+    "name": "Kool-Aid Man",
+    "publisher": "Kool-Aid"
+  },
+  {
+    "id": "394",
+    "name": "Kraven II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "395",
+    "name": "Kraven the Hunter",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "396",
+    "name": "Krypto",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "397",
+    "name": "Kyle Rayner",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "398",
+    "name": "Kylo Ren",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "399",
+    "name": "Lady Bullseye",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "400",
+    "name": "Lady Deathstrike",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "401",
+    "name": "Leader",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "402",
+    "name": "Leech",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "403",
+    "name": "Legion",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "404",
+    "name": "Leonardo",
+    "publisher": "Mirage Studios"
+  },
+  {
+    "id": "405",
+    "name": "Lex Luthor",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "406",
+    "name": "Light Lass",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "407",
+    "name": "Lightning Lad",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "408",
+    "name": "Lightning Lord",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "409",
+    "name": "Living Brain",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "410",
+    "name": "Living Tribunal",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "411",
+    "name": "Liz Sherman",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "412",
+    "name": "Lizard",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "413",
+    "name": "Lobo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "414",
+    "name": "Loki",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "415",
+    "name": "Longshot",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "416",
+    "name": "Luke Cage",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "418",
+    "name": "Luke Skywalker",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "419",
+    "name": "Luna",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "420",
+    "name": "Lyja",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "421",
+    "name": "Mach-IV",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "422",
+    "name": "Machine Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "423",
+    "name": "Magneto",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "424",
+    "name": "Magog",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "425",
+    "name": "Magus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "426",
+    "name": "Man of Miracles",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "427",
+    "name": "Man-Bat",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "428",
+    "name": "Man-Thing",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "429",
+    "name": "Man-Wolf",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "430",
+    "name": "Mandarin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "431",
+    "name": "Mantis",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "432",
+    "name": "Martian Manhunter",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "433",
+    "name": "Marvel Girl",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "434",
+    "name": "Master Brood",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "436",
+    "name": "Match",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "438",
+    "name": "Maverick",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "439",
+    "name": "Maxima",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "441",
+    "name": "Medusa",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "442",
+    "name": "Meltdown",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "443",
+    "name": "Mephisto",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "444",
+    "name": "Mera",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "445",
+    "name": "Metallo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "446",
+    "name": "Metamorpho",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "447",
+    "name": "Meteorite",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "448",
+    "name": "Metron",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "450",
+    "name": "Michelangelo",
+    "publisher": "Mirage Studios"
+  },
+  {
+    "id": "451",
+    "name": "Micro Lad",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "452",
+    "name": "Mimic",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "453",
+    "name": "Minna Murray",
+    "publisher": "WildStorm"
+  },
+  {
+    "id": "454",
+    "name": "Misfit",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "455",
+    "name": "Miss Martian",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "456",
+    "name": "Mister Fantastic",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "457",
+    "name": "Mister Freeze",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "458",
+    "name": "Mister Knife",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "459",
+    "name": "Mister Mxyzptlk",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "460",
+    "name": "Mister Sinister",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "461",
+    "name": "Mister Zsasz",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "462",
+    "name": "Mockingbird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "463",
+    "name": "MODOK",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "464",
+    "name": "Mogo",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "466",
+    "name": "Moloch",
+    "publisher": "Watchmen"
+  },
+  {
+    "id": "467",
+    "name": "Molten Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "468",
+    "name": "Monarch",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "470",
+    "name": "Moon Knight",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "471",
+    "name": "Moonstone",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "472",
+    "name": "Morlun",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "473",
+    "name": "Morph",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "474",
+    "name": "Moses Magnum",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "475",
+    "name": "Mr Immortal",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "476",
+    "name": "Mr Incredible",
+    "publisher": "Pixar"
+  },
+  {
+    "id": "477",
+    "name": "Ms Marvel II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "478",
+    "name": "Multiple Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "479",
+    "name": "Mysterio",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "480",
+    "name": "Mystique",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "481",
+    "name": "Namor",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "482",
+    "name": "Namor",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "483",
+    "name": "Namora",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "484",
+    "name": "Namorita",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "485",
+    "name": "Naruto Uzumaki",
+    "publisher": "Shueisha"
+  },
+  {
+    "id": "487",
+    "name": "Nebula",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "488",
+    "name": "Negasonic Teenage Warhead",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "489",
+    "name": "Nick Fury",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "490",
+    "name": "Nightcrawler",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "491",
+    "name": "Nightwing",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "493",
+    "name": "Nina Theroux",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "494",
+    "name": "Nite Owl II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "495",
+    "name": "Northstar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "496",
+    "name": "Nova",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "497",
+    "name": "Nova",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "498",
+    "name": "Odin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "499",
+    "name": "Offspring",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "500",
+    "name": "Omega Red",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "501",
+    "name": "Omniscient",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "502",
+    "name": "One Punch Man",
+    "publisher": "Shueisha"
+  },
+  {
+    "id": "503",
+    "name": "One-Above-All",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "504",
+    "name": "Onslaught",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "505",
+    "name": "Oracle",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "506",
+    "name": "Osiris",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "507",
+    "name": "Overtkill",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "508",
+    "name": "Ozymandias",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "509",
+    "name": "Parademon",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "510",
+    "name": "Paul Blart",
+    "publisher": "Sony Pictures"
+  },
+  {
+    "id": "511",
+    "name": "Penance",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "512",
+    "name": "Penance I",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "513",
+    "name": "Penance II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "514",
+    "name": "Penguin",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "515",
+    "name": "Phantom",
+    "publisher": "King Features Syndicate"
+  },
+  {
+    "id": "516",
+    "name": "Phantom Girl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "517",
+    "name": "Phoenix",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "518",
+    "name": "Plantman",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "519",
+    "name": "Plastic Lad",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "520",
+    "name": "Plastic Man",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "521",
+    "name": "Plastique",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "522",
+    "name": "Poison Ivy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "523",
+    "name": "Polaris",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "524",
+    "name": "Power Girl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "525",
+    "name": "Power Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "526",
+    "name": "Predator",
+    "publisher": "Dark Horse Comics"
+  },
+  {
+    "id": "527",
+    "name": "Professor X",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "528",
+    "name": "Professor Zoom",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "529",
+    "name": "Psylocke",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "530",
+    "name": "Punisher",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "531",
+    "name": "Purple Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "532",
+    "name": "Pyro",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "533",
+    "name": "Q",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "534",
+    "name": "Quantum",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "535",
+    "name": "Question",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "536",
+    "name": "Quicksilver",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "537",
+    "name": "Quill",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "538",
+    "name": "Ra's Al Ghul",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "540",
+    "name": "Rambo",
+    "publisher": "Lionsgate"
+  },
+  {
+    "id": "541",
+    "name": "Raphael",
+    "publisher": "Mirage Studios"
+  },
+  {
+    "id": "542",
+    "name": "Raven",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "543",
+    "name": "Ray",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "544",
+    "name": "Razor-Fist II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "545",
+    "name": "Red Arrow",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "546",
+    "name": "Red Hood",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "547",
+    "name": "Red Hulk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "548",
+    "name": "Red Mist",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "549",
+    "name": "Red Robin",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "550",
+    "name": "Red Skull",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "551",
+    "name": "Red Tornado",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "552",
+    "name": "Redeemer II",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "553",
+    "name": "Redeemer III",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "555",
+    "name": "Rey",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "556",
+    "name": "Rhino",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "557",
+    "name": "Rick Flag",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "558",
+    "name": "Riddler",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "559",
+    "name": "Rip Hunter",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "560",
+    "name": "Ripcord",
+    "publisher": "IDW Publishing"
+  },
+  {
+    "id": "561",
+    "name": "Robin",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "562",
+    "name": "Robin II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "563",
+    "name": "Robin III",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "564",
+    "name": "Robin V",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "565",
+    "name": "Robin VI",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "566",
+    "name": "Rocket Raccoon",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "567",
+    "name": "Rogue",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "568",
+    "name": "Ronin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "569",
+    "name": "Rorschach",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "570",
+    "name": "Sabretooth",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "571",
+    "name": "Sage",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "572",
+    "name": "Sandman",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "573",
+    "name": "Sasquatch",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "574",
+    "name": "Sauron",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "575",
+    "name": "Savage Dragon",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "576",
+    "name": "Scarecrow",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "577",
+    "name": "Scarlet Spider",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "578",
+    "name": "Scarlet Spider II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "579",
+    "name": "Scarlet Witch",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "580",
+    "name": "Scorpia",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "581",
+    "name": "Scorpion",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "582",
+    "name": "Sebastian Shaw",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "583",
+    "name": "Sentry",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "584",
+    "name": "Shadow King",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "585",
+    "name": "Shadow Lass",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "586",
+    "name": "Shadowcat",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "587",
+    "name": "Shang-Chi",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "588",
+    "name": "Shatterstar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "589",
+    "name": "She-Hulk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "590",
+    "name": "She-Thing",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "591",
+    "name": "Shocker",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "592",
+    "name": "Shriek",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "593",
+    "name": "Shrinking Violet",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "594",
+    "name": "Sif",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "595",
+    "name": "Silk",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "596",
+    "name": "Silk Spectre",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "597",
+    "name": "Silk Spectre II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "598",
+    "name": "Silver Surfer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "599",
+    "name": "Silverclaw",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "600",
+    "name": "Simon Baz",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "601",
+    "name": "Sinestro",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "602",
+    "name": "Siren",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "603",
+    "name": "Siren II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "604",
+    "name": "Siryn",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "605",
+    "name": "Skaar",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "606",
+    "name": "Snake-Eyes",
+    "publisher": "IDW Publishing"
+  },
+  {
+    "id": "607",
+    "name": "Snowbird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "608",
+    "name": "Sobek",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "609",
+    "name": "Solomon Grundy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "610",
+    "name": "Songbird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "611",
+    "name": "Space Ghost",
+    "publisher": "Hanna-Barbera Productions"
+  },
+  {
+    "id": "612",
+    "name": "Spawn",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "613",
+    "name": "Spectre",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "614",
+    "name": "Speedball",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "615",
+    "name": "Speedy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "616",
+    "name": "Speedy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "617",
+    "name": "Spider-Carnage",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "618",
+    "name": "Spider-Girl",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "619",
+    "name": "Spider-Gwen",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "620",
+    "name": "Spider-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "621",
+    "name": "Spider-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "622",
+    "name": "Spider-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "623",
+    "name": "Spider-Woman",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "624",
+    "name": "Spider-Woman II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "625",
+    "name": "Spider-Woman III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "626",
+    "name": "Spider-Woman IV",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "627",
+    "name": "Spock",
+    "publisher": "Star Trek"
+  },
+  {
+    "id": "628",
+    "name": "Spyke",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "629",
+    "name": "Stacy X",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "630",
+    "name": "Star-Lord",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "631",
+    "name": "Stardust",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "632",
+    "name": "Starfire",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "633",
+    "name": "Stargirl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "634",
+    "name": "Static",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "635",
+    "name": "Steel",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "637",
+    "name": "Steppenwolf",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "638",
+    "name": "Storm",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "639",
+    "name": "Stormtrooper",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "640",
+    "name": "Sunspot",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "641",
+    "name": "Superboy",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "642",
+    "name": "Superboy-Prime",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "643",
+    "name": "Supergirl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "644",
+    "name": "Superman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "645",
+    "name": "Swamp Thing",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "646",
+    "name": "Swarm",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "648",
+    "name": "Synch",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "649",
+    "name": "T-1000",
+    "publisher": "Terminator franchise"
+  },
+  {
+    "id": "650",
+    "name": "T-800",
+    "publisher": "Terminator franchise"
+  },
+  {
+    "id": "651",
+    "name": "T-850",
+    "publisher": "Terminator franchise"
+  },
+  {
+    "id": "652",
+    "name": "T-X",
+    "publisher": "Terminator franchise"
+  },
+  {
+    "id": "653",
+    "name": "Taskmaster",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "654",
+    "name": "Tempest",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "655",
+    "name": "Thanos",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "657",
+    "name": "The Comedian",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "658",
+    "name": "Thing",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "659",
+    "name": "Thor",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "660",
+    "name": "Thor Girl",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "661",
+    "name": "Thunderbird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "662",
+    "name": "Thunderbird II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "663",
+    "name": "Thunderbird III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "664",
+    "name": "Thunderstrike",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "665",
+    "name": "Thundra",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "666",
+    "name": "Tiger Shark",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "667",
+    "name": "Tigra",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "668",
+    "name": "Tinkerer",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "669",
+    "name": "Titan",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "670",
+    "name": "Toad",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "671",
+    "name": "Toxin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "672",
+    "name": "Toxin",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "674",
+    "name": "Trickster",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "675",
+    "name": "Trigon",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "676",
+    "name": "Triplicate Girl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "677",
+    "name": "Triton",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "678",
+    "name": "Two-Face",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "679",
+    "name": "Ultragirl",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "680",
+    "name": "Ultron",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "681",
+    "name": "Utgard-Loki",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "682",
+    "name": "Vagabond",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "683",
+    "name": "Valerie Hart",
+    "publisher": "Valiant Comics"
+  },
+  {
+    "id": "684",
+    "name": "Valkyrie",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "685",
+    "name": "Vanisher",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "686",
+    "name": "Vegeta",
+    "publisher": "Shueisha"
+  },
+  {
+    "id": "687",
+    "name": "Venom",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "688",
+    "name": "Venom II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "689",
+    "name": "Venom III",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "690",
+    "name": "Venompool",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "691",
+    "name": "Vertigo II",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "692",
+    "name": "Vibe",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "693",
+    "name": "Vindicator",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "694",
+    "name": "Vindicator",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "695",
+    "name": "Violator",
+    "publisher": "Image Comics"
+  },
+  {
+    "id": "696",
+    "name": "Violet Parr",
+    "publisher": "Pixar"
+  },
+  {
+    "id": "697",
+    "name": "Vision",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "698",
+    "name": "Vision II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "699",
+    "name": "Vixen",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "700",
+    "name": "Vulcan",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "701",
+    "name": "Vulture",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "702",
+    "name": "Walrus",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "703",
+    "name": "War Machine",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "704",
+    "name": "Warbird",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "705",
+    "name": "Warlock",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "706",
+    "name": "Warp",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "707",
+    "name": "Warpath",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "708",
+    "name": "Wasp",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "709",
+    "name": "Watcher",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "710",
+    "name": "Weapon XI",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "711",
+    "name": "White Canary",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "712",
+    "name": "White Queen",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "713",
+    "name": "Wildfire",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "714",
+    "name": "Winter Soldier",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "715",
+    "name": "Wiz Kid",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "716",
+    "name": "Wolfsbane",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "717",
+    "name": "Wolverine",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "718",
+    "name": "Wonder Girl",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "719",
+    "name": "Wonder Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "720",
+    "name": "Wonder Woman",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "721",
+    "name": "Wondra",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "722",
+    "name": "Wyatt Wingfoot",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "723",
+    "name": "X-23",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "724",
+    "name": "X-Man",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "725",
+    "name": "Yellow Claw",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "726",
+    "name": "Yellowjacket",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "727",
+    "name": "Yellowjacket II",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "728",
+    "name": "Ymir",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "id": "729",
+    "name": "Yoda",
+    "publisher": "Lucasfilm"
+  },
+  {
+    "id": "730",
+    "name": "Zatanna",
+    "publisher": "DC Comics"
+  },
+  {
+    "id": "731",
+    "name": "Zoom",
+    "publisher": "DC Comics"
+  }
+]
