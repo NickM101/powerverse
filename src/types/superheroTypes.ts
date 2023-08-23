@@ -1,6 +1,6 @@
 // superheroTypes.ts
 
-interface Powerstats {
+export interface Powerstats {
   intelligence: string;
   strength: string;
   speed: string;
@@ -9,7 +9,7 @@ interface Powerstats {
   combat: string;
 }
 
-interface Biography {
+export interface Biography {
   'full-name': string;
   'alter-egos': string;
   aliases: string[];
@@ -19,7 +19,7 @@ interface Biography {
   alignment: string;
 }
 
-interface Appearance {
+export interface Appearance {
   gender: string;
   race: string;
   height: string[];
@@ -28,17 +28,17 @@ interface Appearance {
   'hair-color': string;
 }
 
-interface Work {
+export interface Work {
   occupation: string;
   base: string;
 }
 
-interface Connections {
+export interface Connections {
   'group-affiliation': string;
   relatives: string;
 }
 
-interface Image {
+export interface Image {
   url: string;
 }
 

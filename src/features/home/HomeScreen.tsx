@@ -12,7 +12,8 @@ const Separator = () => <View style={styles.margin} />;
 const HomeScreen = () => {
   const idsToFetch = [489, 260, 289, 522, 538, 546, 70];
 
-  const response = superheroApi.endpoints.getCharacters.useQuery(idsToFetch);
+  const response =
+    superheroApi.endpoints.getCharactersByID.useQuery(idsToFetch);
 
   const renderItem: ListRenderItem<SuperheroResponse> = useCallback(
     ({item}) => (
