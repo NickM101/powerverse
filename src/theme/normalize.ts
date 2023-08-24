@@ -16,30 +16,22 @@ function normalize(size: number, based = 'width') {
 }
 
 //for width  pixel
-const widthPixel = (size: number) => {
+export const widthPixel = (size: number) => {
   return normalize(size, 'width');
 };
 //for height  pixel
-const heightPixel = (size: number) => {
+export const heightPixel = (size: number) => {
   return normalize(size, 'height');
 };
 //for font  pixel
-const fontPixel = (size: number) => {
+export const fontPixel = (size: number) => {
   return heightPixel(size);
 };
 //for Margin and Padding vertical pixel
-const pixelSizeVertical = (size: number) => {
+export const pixelSizeVertical = (size: number) => {
   return heightPixel(size);
 };
 //for Margin and Padding horizontal pixel
-const pixelSizeHorizontal = (size: number) => {
+export const pixelSizeHorizontal = (size: number) => {
   return widthPixel(size);
-};
-
-export {
-  fontPixel,
-  pixelSizeHorizontal,
-  pixelSizeVertical,
-  heightPixel,
-  widthPixel,
 };

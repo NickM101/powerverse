@@ -3,7 +3,7 @@ import {borderRadii} from './designSystem';
 import {heightPixel, widthPixel} from './normalize';
 import {typographyStyles} from './designTypography';
 
-export const GlobalStyles = StyleSheet.create({
+export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',

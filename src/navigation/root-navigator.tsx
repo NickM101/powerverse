@@ -2,15 +2,15 @@ import React, {useEffect} from 'react';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import HomeScreen from 'features/home/HomeScreen';
-import DetailScreen from 'features/detail/DetailScreen';
-import {darkModeColors, lightModeColors} from 'theme/designColors';
-import {useAppSelector, useAppDispatch} from 'hooks/reduxHooks';
-import ProfilePage from 'features/profile/ProfilePage';
+import HomeScreen from '@screens/HomeScreen';
+import DetailScreen from '@features/detail/DetailScreen';
+import {darkModeColors, lightModeColors} from '@theme/designColors';
+import {useAppSelector, useAppDispatch} from '@hooks/reduxHooks';
+import ProfilePage from '@features/profile/ProfilePage';
 import {useColorScheme} from 'react-native';
-import {setThemeMode} from 'redux/slice/themeSlice';
-import SearchPage from 'features/search/SearchPage';
-import {RootStackParamList} from 'types/navigationTypes';
+import {setThemeMode} from '@redux/slice/themeSlice';
+import SearchPage from '@features/search/SearchPage';
+import {RootStackParamList} from '../types/navigationTypes';
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 

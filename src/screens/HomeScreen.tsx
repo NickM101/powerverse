@@ -1,12 +1,12 @@
 import React from 'react';
 import {View} from 'react-native';
-import {GlobalStyles} from '../theme';
-import HomeCarousel from '../components/HomeCarousel';
+import {globalStyles} from '@theme/index';
+import VisualInfoCard from '@components/VisualInfoCard';
 
 const HomeScreen = () => {
   return (
-    <View style={GlobalStyles.container}>
-      <HomeCarousel />
+    <View style={globalStyles.container}>
+      <VisualInfoCard />
     </View>
   );
 };

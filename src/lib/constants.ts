@@ -1,7 +1,11 @@
+import {Dimensions} from 'react-native';
+
 export interface ComicPublishers {
   name: string;
   image: string;
 }
+
+export const Window_Width = Dimensions.get('window').width;
 
 export const publishers: ComicPublishers[] = [
   {
