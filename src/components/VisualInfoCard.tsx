@@ -1,11 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import FastImage, {FastImageProps} from 'react-native-fast-image';
+import FastImage from 'react-native-fast-image';
 import LinearGradient from 'react-native-linear-gradient';
 import {heightPixel, widthPixel} from '@theme/normalize';
 import {typographyStyles} from '@theme/designTypography';
 import {Window_Width} from '@lib/constants';
 import {borderRadii} from '@theme/designSystem';
+import {CustomImageStyle} from '../types/declerative';
 
 const VisualInfoCard = () => {
   const items = [1, 2, 3, 4, 5];
@@ -47,10 +48,6 @@ const VisualInfoCard = () => {
 
 export default VisualInfoCard;
 
-type CustomImageStyle = FastImageProps & {
-  height: number;
-  width: number;
-};
 const imageStyle: CustomImageStyle = {
   height: heightPixel(600),
   width: Window_Width,

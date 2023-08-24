@@ -16,7 +16,7 @@ const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 const RootNavigator = () => {
   const theme = useAppSelector(state => state.theme.mode);
-  const mode = theme === 'dark' ? darkModeColors : lightModeColors;
+  const mode = theme !== 'dark' ? darkModeColors : lightModeColors;
   const dispatch = useAppDispatch();
   const colorScheme = useColorScheme();
   useEffect(() => {

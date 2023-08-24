@@ -45,7 +45,7 @@ export const typographyStyles: TypographyStyles = StyleSheet.create({
   },
   subtext: {
     fontFamily: rubik_italic,
-    fontSize: fontPixel(10),
+    fontSize: fontPixel(12),
     lineHeight: 13,
     color: 'white',
   },

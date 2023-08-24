@@ -1,6 +1,6 @@
-import VisualInfoCard from 'components/VisualInfoCard';
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {View} from 'react-native';
+import VisualInfoCard from '@components/VisualInfoCard';
 
 const ComicCharacterCarousel = () => {
   return (
@@ -11,5 +11,3 @@ const ComicCharacterCarousel = () => {
 };
 
 export default ComicCharacterCarousel;
-
-const styles = StyleSheet.create({});

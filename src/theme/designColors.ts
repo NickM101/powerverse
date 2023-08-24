@@ -28,7 +28,7 @@ const darkModeColors = {
   dark: true,
   colors: {
     primary: '#BD83B8',
-    background: '#212121',
+    background: '#000',
     card: '#333333',
     text: '#FFFFFF',
     border: '#D9D9D9',
