@@ -1,9 +1,10 @@
 import {PayloadAction, createSlice} from '@reduxjs/toolkit';
-import charactersData from '../../lib/data.json';
+import charactersData from '../../lib/comic_characters.json';
 
 export interface Character {
-  id: number;
+  id: string;
   name: string;
+  publisher: string;
 }
 export interface SearchState {
   searchCharacter: string;
@@ -11,9 +12,10 @@ export interface SearchState {
   characters: Character[];
 }
 
-const characters: Character[] = charactersData.map((item: any) => ({
-  id: item[0], // Assuming the first element is the ID
-  name: item[1], // Assuming the second element is the name
+const characters: Character[] = charactersData.map(({id, name, publisher}) => ({
+  id,
+  name,
+  publisher,
 }));
 
 const initialState: SearchState = {

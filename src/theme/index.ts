@@ -6,7 +6,9 @@ import {typographyStyles} from './designTypography';
 export const GlobalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    marginHorizontal: 15,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   button: {
     height: heightPixel(50),

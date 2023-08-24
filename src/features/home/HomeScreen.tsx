@@ -1,48 +1,50 @@
-import React, {useCallback} from 'react';
-import {FlatList, ListRenderItem, StyleSheet, View} from 'react-native';
-import FlatListCard from '../../components/FlatListCard';
-import {superheroApi} from '../../services/superheroapi';
-import SuperheroResponse from '../../types/superheroTypes';
-import CustomButton from '../../components/CustomButton';
+import React from 'react';
+import {StyleSheet, View} from 'react-native';
+import HomeCarousel from '../../components/HomeCarousel';
+// import FlatListCard from '../../components/FlatListCard';
+// import {superheroApi} from '../../services/superheroapi';
+// import SuperheroResponse from '../../types/superheroTypes';
+// import CustomButton from '../../components/CustomButton';
 
-const ITEM_HEIGHT = 300; // fixed height of item component
+// const ITEM_HEIGHT = 300; // fixed height of item component
 
-const Separator = () => <View style={styles.margin} />;
+// const Separator = () => <View style={styles.margin} />;
 
 const HomeScreen = () => {
-  const idsToFetch = [489, 260, 289, 522, 538, 546, 70];
+  // const idsToFetch = [489, 260, 289, 522, 538, 546, 70];
 
-  const response =
-    superheroApi.endpoints.getCharactersByID.useQuery(idsToFetch);
+  // const response =
+  //   superheroApi.endpoints.getCharactersByID.useQuery(idsToFetch);
 
-  const renderItem: ListRenderItem<SuperheroResponse> = useCallback(
-    ({item}) => (
-      <FlatListCard
-        imageSource={item.image.url}
-        text={item.name}
-        id={item.id}
-      />
-    ),
-    [],
-  );
+  // const renderItem: ListRenderItem<SuperheroResponse> = useCallback(
+  //   ({item}) => (
+  //     <FlatListCard
+  //       imageSource={item.image.url}
+  //       text={item.name}
+  //       id={item.id}
+  //     />
+  //   ),
+  //   [],
+  // );
 
-  const keyExtractor = useCallback(
-    (items: SuperheroResponse) => items.id.toString(),
-    [],
-  );
+  // const keyExtractor = useCallback(
+  //   (items: SuperheroResponse) => items.id.toString(),
+  //   [],
+  // );
 
-  const getItemLayout = useCallback(
-    (data: any, index: number) => ({
-      length: ITEM_HEIGHT,
-      offset: ITEM_HEIGHT * index,
-      index,
-    }),
-    [],
-  );
+  // const getItemLayout = useCallback(
+  //   (data: any, index: number) => ({
+  //     length: ITEM_HEIGHT,
+  //     offset: ITEM_HEIGHT * index,
+  //     index,
+  //   }),
+  //   [],
+  // );
 
   return (
     <View style={styles.container}>
-      <CustomButton />
+      <HomeCarousel />
+      {/* <CustomButton />
       <FlatList
         horizontal
         initialNumToRender={3}
@@ -53,7 +55,7 @@ const HomeScreen = () => {
         alwaysBounceVertical={false}
         getItemLayout={getItemLayout}
         ItemSeparatorComponent={Separator}
-      />
+      /> */}
     </View>
   );
 };
@@ -61,6 +63,7 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
   },
