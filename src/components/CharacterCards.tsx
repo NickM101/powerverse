@@ -1,14 +1,9 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {
-  heightPixel,
-  pixelSizeHorizontal,
-  pixelSizeVertical,
-  widthPixel,
-} from '@theme/normalize';
+import {heightPixel, pixelSizeHorizontal, widthPixel} from '@theme/normalize';
 import {borderRadii, spacing} from '@theme/designSystem';
 import FastImage from 'react-native-fast-image';
-import {CustomImageStyle} from '@types/declerative';
+import {CustomImageStyle} from '../types/declerative';
 import {typographyStyles} from '@theme/designTypography';
 
 const CharacterCards = () => {
@@ -42,11 +37,9 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     height: heightPixel(330),
     width: widthPixel(180),
-    marginVertical: pixelSizeVertical(spacing.sm),
     marginHorizontal: pixelSizeHorizontal(spacing.xs),
     borderWidth: 1,
     borderRadius: borderRadii.medium,
-    // backgroundColor: 'red',
   },
   textContainer: {
     flex: 1,
