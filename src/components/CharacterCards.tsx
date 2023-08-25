@@ -7,31 +7,54 @@ import {
   widthPixel,
 } from '@theme/normalize';
 import {borderRadii, spacing} from '@theme/designSystem';
+import FastImage from 'react-native-fast-image';
+import {CustomImageStyle} from '@types/declerative';
+import {typographyStyles} from '@theme/designTypography';
 
 const CharacterCards = () => {
   return (
     <View style={styles.container}>
-      <Text>CharacterCards</Text>
+      <FastImage
+        source={{
+          uri: 'https://www.superherodb.com/pictures2/portraits/10/100/639.jpg',
+        }}
+        style={imageStyle}
+        resizeMode={FastImage.resizeMode.cover}
+      />
+      <View style={styles.textContainer}>
+        <Text style={typographyStyles.label}>Buffy the Vampire Slayer</Text>
+        <Text style={[typographyStyles.subtitle, styles.text]}>Marvel</Text>
+      </View>
     </View>
   );
 };
 
 export default CharacterCards;
 
+const imageStyle: CustomImageStyle = {
+  height: heightPixel(250),
+  width: widthPixel(178),
+  borderRadius: borderRadii.medium,
+};
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'space-between',
-    alignContent: 'center',
-    height: heightPixel(200),
-    width: widthPixel(200),
+    justifyContent: 'flex-start',
+    height: heightPixel(330),
+    width: widthPixel(180),
     marginVertical: pixelSizeVertical(spacing.sm),
-    marginHorizontal: pixelSizeHorizontal(spacing.sm),
-    paddingHorizontal: pixelSizeHorizontal(spacing.xl),
-    paddingVertical: pixelSizeVertical(spacing.xl),
+    marginHorizontal: pixelSizeHorizontal(spacing.xs),
     borderWidth: 1,
-    borderColor: 'white',
     borderRadius: borderRadii.medium,
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
+  },
+  textContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingVertical: spacing.xs,
+    paddingHorizontal: spacing.xs,
+  },
+  text: {
+    textAlign: 'center',
   },
 });
