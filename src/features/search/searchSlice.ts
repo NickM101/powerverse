@@ -1,5 +1,5 @@
 import {PayloadAction, createSlice} from '@reduxjs/toolkit';
-import charactersData from '../../lib/comic_characters.json';
+import charactersData from '@lib/comic_characters.json';
 
 export interface Character {
   id: string;

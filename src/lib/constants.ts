@@ -1,5 +1,5 @@
 import {Dimensions, ImageProps} from 'react-native';
-
+import comicCharacters from '@lib/comic_characters.json';
 export interface ComicPublishers {
   id: string;
   name: string;
@@ -35,3 +35,21 @@ export const publishers: ComicPublishers[] = [
     image: require('../../assets/images/lucasfilm.png'),
   },
 ];
+
+const shuffledCharacters = () => {
+  // Shuffle the array using Fisher-Yates algorithm
+  const characters = [...comicCharacters];
+  for (let i = comicCharacters.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [comicCharacters[i], comicCharacters[j]] = [
+      comicCharacters[j],
+      comicCharacters[i],
+    ];
+  }
+
+  return characters.slice(0, 20).map(character => character.id);
+};
+
+export const trending_marvel = ['620'];
+export const trending_dc_comics = [];
+export const author_picks = shuffledCharacters();
