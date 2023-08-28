@@ -50,6 +50,12 @@ const shuffledCharacters = () => {
   return characters.slice(0, 20).map(character => character.id);
 };
 
-export const trending_marvel = ['620'];
-export const trending_dc_comics = [];
+export const trending_marvel = [
+  620, 346, 149, 332, 659, 107, 717, 213, 226, 106, 201, 196, 356, 638, 313,
+  579, 30, 708, 567, 274,
+];
+export const trending_dc_comics = [
+  644, 69, 720, 263, 306, 38, 194, 298, 432, 643, 73, 491, 561, 165, 370, 309,
+  405, 558, 522,
+];
 export const author_picks = shuffledCharacters();

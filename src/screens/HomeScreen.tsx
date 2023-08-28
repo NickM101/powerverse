@@ -1,12 +1,10 @@
 import React, {useRef} from 'react';
-import {ScrollView, StyleSheet} from 'react-native';
+import {ScrollView} from 'react-native';
 import {globalStyles} from '@theme/index';
 import ComicCharacterCarousel from '@features/home/ComicCharacterCarousel';
 import BottomSheet from '@gorhom/bottom-sheet/lib/typescript/components/bottomSheet/BottomSheet';
 import PublishersHeader from '@features/home/PublishersHeader';
 import PublisherBottomSheet from '@features/home/PublisherBottomSheet';
-import CharacterCards from '@components/CharacterCards';
-import SectionHeader from '@components/SectionHeader';
 import CharacterFlatList from '@features/home/CharacterFlatList';
 
 const HomeScreen = () => {
@@ -28,10 +26,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({
-  components: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-  },
-});

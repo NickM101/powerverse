@@ -1,95 +1,82 @@
-import {StyleSheet, View, Text, Dimensions} from 'react-native';
-import React, {useMemo, useRef, useEffect} from 'react';
-import {BottomSheetModal, BottomSheetModalProvider} from '@gorhom/bottom-sheet';
-import FlatListCard from '../../components/FlatListCard';
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {RootStackParamList} from '../../types/navigationTypes';
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import {heightPixel, pixelSizeHorizontal, widthPixel} from '@theme/normalize';
+import {BlurView} from '@react-native-community/blur';
+import {typographyStyles} from '@theme/designTypography';
+import FastImage from 'react-native-fast-image';
+import {borderRadii, spacing} from '@theme/designSystem';
+import {CustomImageStyle} from '@types/declerative';
 
-const {width, height} = Dimensions.get('window');
-
-type Props = NativeStackScreenProps<RootStackParamList, 'Detail'>;
-
-const DetailScreen = ({route}: Props) => {
-  const {character_id} = route.params;
-  // ref
-  const bottomSheetModalRef = useRef<BottomSheetModal>(null);
-  const bottomSheetModalRef2 = useRef<BottomSheetModal>(null);
-  const bottomSheetModalRef3 = useRef<BottomSheetModal>(null);
-  const bottomSheetModalRef4 = useRef<BottomSheetModal>(null);
-
-  // variables
-  const snapPoints = useMemo(() => ['50%', '50%', '90%'], []);
-  const snapPoints2 = useMemo(() => ['40%', '40%', '80%'], []);
-  const snapPoints3 = useMemo(() => ['30%', '30%', '70%'], []);
-  const snapPoints4 = useMemo(() => ['20%', '20%', '50%'], []);
-
-  useEffect(() => {
-    bottomSheetModalRef.current?.present();
-    bottomSheetModalRef2.current?.present();
-    bottomSheetModalRef3.current?.present();
-    bottomSheetModalRef4.current?.present();
-
-    return () => {};
-  }, [
-    bottomSheetModalRef,
-    bottomSheetModalRef2,
-    bottomSheetModalRef3,
-    bottomSheetModalRef4,
-  ]);
-
+const DetailScreen = () => {
   return (
     <View style={styles.container}>
-      <FlatListCard
-        imageSource={character_image}
-        text={character_name}
-        item={character_name}
-        height={height * 0.5}
-        width={width}
-      />
-      <BottomSheetModalProvider>
+      <View style={styles.textContainer}>
+        <Text style={[typographyStyles.display, styles.topText]}>
+          Wonder Woman
+        </Text>
+        <BlurView style={styles.blur} blurType="dark" blurAmount={5} />
+        <Text style={[typographyStyles.headline, styles.bottomText]}>
+          Wonder woman
+        </Text>
+      </View>
+      <View style={styles.imageContent}>
+        <FastImage
+          source={{
+            uri: 'https://www.superherodb.com/pictures2/portraits/10/100/639.jpg',
+          }}
+          style={imageStyle}
+          resizeMode={FastImage.resizeMode.cover}
+        />
         <View style={styles.container}>
-          <BottomSheetModal
-            ref={bottomSheetModalRef}
-            index={1}
-            snapPoints={snapPoints}
-            enablePanDownToClose={false}>
-            <Text>Awesome 1</Text>
-          </BottomSheetModal>
-          <BottomSheetModal
-            ref={bottomSheetModalRef2}
-            index={1}
-            snapPoints={snapPoints2}
-            enablePanDownToClose={false}>
-            <Text>Awesome 2</Text>
-          </BottomSheetModal>
-          <BottomSheetModal
-            ref={bottomSheetModalRef3}
-            index={1}
-            snapPoints={snapPoints3}
-            enablePanDownToClose={false}>
-            <Text>Awesome 3</Text>
-          </BottomSheetModal>
-          <BottomSheetModal
-            ref={bottomSheetModalRef4}
-            index={1}
-            snapPoints={snapPoints4}
-            enablePanDownToClose={false}>
-            <Text>Awesome 4</Text>
-          </BottomSheetModal>
+          <Text style={typographyStyles.label}>Batman</Text>
+          <Text style={typographyStyles.label}>Bruce Wayne</Text>
+          <Text style={typographyStyles.label}>Human • Male</Text>
+          <Text style={typographyStyles.label}>Eye Color • Blue</Text>
+          <Text style={typographyStyles.label}>Hair Color • Black</Text>
+          <Text style={typographyStyles.label}>Height • 6'2, 188 cm</Text>
+          <Text style={typographyStyles.label}>Weight • 210 lb, 95 kg</Text>
         </View>
-      </BottomSheetModalProvider>
+      </View>
     </View>
   );
 };
 
 export default DetailScreen;
 
+const imageStyle: CustomImageStyle = {
+  height: heightPixel(250),
+  width: widthPixel(178),
+  borderRadius: borderRadii.medium,
+};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: spacing.xs,
   },
-  contentContainer: {
+  textContainer: {
+    position: 'relative',
+    paddingTop: pixelSizeHorizontal(50),
+    height: heightPixel(100),
+  },
+  topText: {
+    position: 'absolute',
+  },
+  blur: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: heightPixel(200),
+  },
+  bottomText: {
+    position: 'absolute',
+  },
+  imageContent: {
     flex: 1,
-    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  appearance: {
+    flexDirection: 'column',
   },
 });

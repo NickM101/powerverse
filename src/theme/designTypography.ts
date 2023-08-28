@@ -9,6 +9,7 @@ const rubik_italic = 'Rubik-Italic';
 
 // Define typography styles
 interface TypographyStyles {
+  display: TextStyle;
   headline: TextStyle;
   title: TextStyle;
   subtitle: TextStyle;
@@ -18,6 +19,12 @@ interface TypographyStyles {
 }
 
 export const typographyStyles: TypographyStyles = StyleSheet.create({
+  display: {
+    fontFamily: rubik_bold,
+    fontSize: fontPixel(64),
+    lineHeight: 69,
+    color: 'white',
+  },
   headline: {
     fontFamily: rubik_bold,
     fontSize: fontPixel(26),
