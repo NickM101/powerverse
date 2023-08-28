@@ -27,7 +27,7 @@ const DetailScreen = () => {
           style={imageStyle}
           resizeMode={FastImage.resizeMode.cover}
         />
-        <View style={styles.container}>
+        <View style={styles.contentContainer}>
           <Text style={typographyStyles.label}>Batman</Text>
           <Text style={typographyStyles.label}>Bruce Wayne</Text>
           <Text style={typographyStyles.label}>Human • Male</Text>
@@ -61,22 +61,31 @@ const styles = StyleSheet.create({
   },
   topText: {
     position: 'absolute',
+    bottom: -25,
   },
   blur: {
     position: 'absolute',
-    bottom: 0,
+    bottom: -25,
     left: 0,
     right: 0,
     height: heightPixel(200),
   },
   bottomText: {
     position: 'absolute',
+    bottom: 0,
+    paddingLeft: pixelSizeHorizontal(spacing.lg),
   },
   imageContent: {
     flex: 1,
     flexDirection: 'row',
+    maxHeight: heightPixel(250),
+    paddingHorizontal: pixelSizeHorizontal(spacing.lg),
   },
   appearance: {
     flexDirection: 'column',
+  },
+  contentContainer: {
+    justifyContent: 'space-evenly',
+    paddingHorizontal: pixelSizeHorizontal(spacing.sm),
   },
 });
