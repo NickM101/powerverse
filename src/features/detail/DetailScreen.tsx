@@ -1,11 +1,12 @@
-import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {heightPixel, pixelSizeHorizontal, widthPixel} from '@theme/normalize';
+import {StyleSheet, Text, View} from 'react-native';
 import {BlurView} from '@react-native-community/blur';
+
+import {heightPixel, pixelSizeHorizontal} from '@theme/normalize';
 import {typographyStyles} from '@theme/designTypography';
-import FastImage from 'react-native-fast-image';
-import {borderRadii, spacing} from '@theme/designSystem';
-import {CustomImageStyle} from '@types/declerative';
+import {spacing} from '@theme/designSystem';
+import CharacterAppearance from '@features/detail/CharacterAppearance';
+import CharacterTabs from '@navigation/character_tabs';
 
 const DetailScreen = () => {
   return (
@@ -19,35 +20,13 @@ const DetailScreen = () => {
           Wonder woman
         </Text>
       </View>
-      <View style={styles.imageContent}>
-        <FastImage
-          source={{
-            uri: 'https://www.superherodb.com/pictures2/portraits/10/100/639.jpg',
-          }}
-          style={imageStyle}
-          resizeMode={FastImage.resizeMode.cover}
-        />
-        <View style={styles.contentContainer}>
-          <Text style={typographyStyles.label}>Batman</Text>
-          <Text style={typographyStyles.label}>Bruce Wayne</Text>
-          <Text style={typographyStyles.label}>Human • Male</Text>
-          <Text style={typographyStyles.label}>Eye Color • Blue</Text>
-          <Text style={typographyStyles.label}>Hair Color • Black</Text>
-          <Text style={typographyStyles.label}>Height • 6'2, 188 cm</Text>
-          <Text style={typographyStyles.label}>Weight • 210 lb, 95 kg</Text>
-        </View>
-      </View>
+      <CharacterAppearance />
+      <CharacterTabs />
     </View>
   );
 };
 
 export default DetailScreen;
-
-const imageStyle: CustomImageStyle = {
-  height: heightPixel(250),
-  width: widthPixel(178),
-  borderRadius: borderRadii.medium,
-};
 
 const styles = StyleSheet.create({
   container: {
@@ -83,9 +62,5 @@ const styles = StyleSheet.create({
   },
   appearance: {
     flexDirection: 'column',
-  },
-  contentContainer: {
-    justifyContent: 'space-evenly',
-    paddingHorizontal: pixelSizeHorizontal(spacing.sm),
   },
 });
