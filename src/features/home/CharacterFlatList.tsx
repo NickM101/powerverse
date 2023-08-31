@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList, ListRenderItem} from 'react-native';
+import {View, FlatList, ListRenderItem} from 'react-native';
 import React, {useCallback} from 'react';
 import CharacterCards from '@components/CharacterCards';
 import SectionHeader from '@components/SectionHeader';
@@ -22,5 +22,3 @@ const CharacterFlatList = () => {
 };
 
 export default CharacterFlatList;
-
-const styles = StyleSheet.create({});
