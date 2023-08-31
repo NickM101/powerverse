@@ -14,7 +14,7 @@ interface ModeColors {
 const lightModeColors = {
   dark: false,
   colors: {
-    primary: '#F1916D',
+    primary: '#BF0812',
     background: '#f2f3fa',
     card: '#F5D7DB',
     text: '#333333',
@@ -27,7 +27,7 @@ const lightModeColors = {
 const darkModeColors = {
   dark: true,
   colors: {
-    primary: '#BD83B8',
+    primary: '#BF0812',
     background: '#000',
     card: '#333333',
     text: '#FFFFFF',

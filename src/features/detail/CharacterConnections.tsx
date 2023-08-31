@@ -19,19 +19,22 @@ const CharacterConnections = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.column}>
-        {firstColumn.map((location, index) => (
-          <Text style={typographyStyles.label} key={index}>
-            • {location}
-          </Text>
-        ))}
-      </View>
-      <View style={styles.column}>
-        {secondColumn.map((location, index) => (
-          <Text style={typographyStyles.label} key={index + middleIndex}>
-            • {location}
-          </Text>
-        ))}
+      <Text style={typographyStyles.label}>Relatives</Text>
+      <View style={styles.contentContainer}>
+        <View style={styles.column}>
+          {firstColumn.map((location, index) => (
+            <Text style={typographyStyles.label} key={index}>
+              • {location}
+            </Text>
+          ))}
+        </View>
+        <View style={styles.column}>
+          {secondColumn.map((location, index) => (
+            <Text style={typographyStyles.label} key={index + middleIndex}>
+              • {location}
+            </Text>
+          ))}
+        </View>
       </View>
     </View>
   );
@@ -41,6 +44,10 @@ export default CharacterConnections;
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    paddingVertical: pixelSizeVertical(spacing.sm),
+  },
+  contentContainer: {
     flex: 1,
     flexDirection: 'row',
     paddingVertical: pixelSizeVertical(spacing.sm),
