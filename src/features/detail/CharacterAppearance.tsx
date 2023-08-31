@@ -2,7 +2,12 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import FastImage from 'react-native-fast-image';
 
-import {heightPixel, pixelSizeHorizontal, widthPixel} from '@theme/normalize';
+import {
+  heightPixel,
+  pixelSizeHorizontal,
+  pixelSizeVertical,
+  widthPixel,
+} from '@theme/normalize';
 import {typographyStyles} from '@theme/designTypography';
 import {borderRadii, spacing} from '@theme/designSystem';
 import {CustomImageStyle} from '../../types/declerative';
@@ -44,6 +49,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     maxHeight: heightPixel(250),
     paddingHorizontal: pixelSizeHorizontal(spacing.lg),
+    marginVertical: pixelSizeVertical(spacing.sm),
   },
   contentContainer: {
     justifyContent: 'space-evenly',
