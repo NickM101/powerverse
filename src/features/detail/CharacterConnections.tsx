@@ -51,7 +51,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     paddingVertical: pixelSizeVertical(spacing.sm),
   },
-
   item: {
     flex: 1,
     margin: 5,

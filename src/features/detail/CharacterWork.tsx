@@ -1,8 +1,13 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {FlatList, ListRenderItem, StyleSheet, Text, View} from 'react-native';
 
 import {spacing} from '@theme/designSystem';
-import {pixelSizeHorizontal, pixelSizeVertical} from '@theme/normalize';
+import {
+  heightPixel,
+  pixelSizeHorizontal,
+  pixelSizeVertical,
+  widthPixel,
+} from '@theme/normalize';
 import {typographyStyles} from '@theme/designTypography';
 
 const CharacterWork = () => {
@@ -12,21 +17,32 @@ const CharacterWork = () => {
   const groups =
     'Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps';
   const groupsArray = groups.split(',').map(location => location.trim());
+
+  const renderItem: ListRenderItem<string> = ({item}) => {
+    return (
+      <Text style={[typographyStyles.label, styles.work]} key={item}>
+        • {item}
+      </Text>
+    );
+  };
+
   return (
     <View style={styles.container}>
-      <Text style={typographyStyles.title}>Occupation</Text>
-      <Text style={[typographyStyles.label, styles.subtext]}>Businessman</Text>
-      <Text style={typographyStyles.title}>Base</Text>
+      <Text style={typographyStyles.headline}>Occupation</Text>
+      <Text style={[typographyStyles.label, styles.base]}>Businessman</Text>
+      <Text style={typographyStyles.headline}>Base</Text>
       {locationArray.map((location, index) => (
-        <Text style={[typographyStyles.label, styles.subtext]} key={index}>
+        <Text style={[typographyStyles.label, styles.base]} key={index}>
           • {location}
         </Text>
       ))}
-      {groupsArray.map((location, index) => (
-        <Text style={[typographyStyles.label, styles.subtext]} key={index}>
-          • {location}
-        </Text>
-      ))}
+      <Text style={typographyStyles.headline}>Work</Text>
+      <FlatList
+        data={groupsArray}
+        renderItem={renderItem}
+        keyExtractor={item => item}
+        numColumns={2}
+      />
     </View>
   );
 };
@@ -37,10 +53,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-evenly',
-    paddingHorizontal: pixelSizeHorizontal(spacing.sm),
+    paddingHorizontal: pixelSizeHorizontal(spacing.xxs),
     paddingVertical: pixelSizeVertical(spacing.xs),
   },
-  subtext: {
-    paddingLeft: pixelSizeHorizontal(spacing.lg),
+  base: {
+    margin: 2,
+    paddingLeft: pixelSizeHorizontal(spacing.xxs),
+  },
+  work: {
+    margin: 5,
+    width: widthPixel(200),
+    paddingLeft: pixelSizeHorizontal(spacing.xxs),
   },
 });
