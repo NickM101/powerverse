@@ -5,6 +5,7 @@ import CharacterBio from '@features/detail/CharacterBio';
 import CharacterWork from '@features/detail/CharacterWork';
 import CharacterConnections from '@features/detail/CharacterConnections';
 import CharacterPowerStats from '@features/detail/CharacterPowerStats';
+import {normalize} from '@theme/normalize';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -13,7 +14,7 @@ const CharacterTabs = () => {
     <Tab.Navigator
       screenOptions={{
         tabBarLabelStyle: {
-          fontSize: 11,
+          fontSize: normalize(12),
           fontFamily: 'Rubik-Medium',
           letterSpacing: 1,
         },
@@ -21,10 +22,10 @@ const CharacterTabs = () => {
           backgroundColor: 'black',
         },
       }}>
-      <Tab.Screen name="Biography" component={CharacterBio} />
-      <Tab.Screen name="Powerstats" component={CharacterPowerStats} />
+      <Tab.Screen name="Bio" component={CharacterBio} />
+      <Tab.Screen name="Powers" component={CharacterPowerStats} />
       <Tab.Screen name="Work" component={CharacterWork} />
-      <Tab.Screen name="Connection" component={CharacterConnections} />
+      <Tab.Screen name="Relative" component={CharacterConnections} />
     </Tab.Navigator>
   );
 };

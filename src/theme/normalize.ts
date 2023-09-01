@@ -5,7 +5,7 @@ const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} = Dimensions.get('window');
 const widthBaseScale = SCREEN_WIDTH / 414;
 const heightBaseScale = SCREEN_HEIGHT / 896;
 
-function normalize(size: number, based = 'width') {
+export function normalize(size: number, based = 'width') {
   if (typeof based !== 'string') {
     throw new Error('The `based` parameter must be of type `string`.');
   }

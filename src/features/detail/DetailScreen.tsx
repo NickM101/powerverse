@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {BlurView} from '@react-native-community/blur';
 
-import {heightPixel, pixelSizeHorizontal} from '@theme/normalize';
+import {heightPixel, normalize, pixelSizeHorizontal} from '@theme/normalize';
 import {typographyStyles} from '@theme/designTypography';
 import {spacing} from '@theme/designSystem';
 import CharacterAppearance from '@features/detail/CharacterAppearance';
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
   },
   topText: {
     position: 'absolute',
-    bottom: -25,
+    bottom: -12,
+    fontSize: normalize(52),
   },
   blur: {
     position: 'absolute',
