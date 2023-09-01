@@ -34,7 +34,7 @@ export const typographyStyles: TypographyStyles = StyleSheet.create({
   },
   title: {
     fontFamily: rubik_bold,
-    fontSize: fontPixel(16),
+    fontSize: fontPixel(20),
     lineHeight: 24,
     color: 'white',
   },

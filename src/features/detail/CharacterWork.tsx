@@ -28,15 +28,15 @@ const CharacterWork = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={typographyStyles.headline}>Occupation</Text>
+      <Text style={typographyStyles.title}>Occupation</Text>
       <Text style={[typographyStyles.label, styles.base]}>Businessman</Text>
-      <Text style={typographyStyles.headline}>Base</Text>
+      <Text style={typographyStyles.title}>Base</Text>
       {locationArray.map((location, index) => (
         <Text style={[typographyStyles.label, styles.base]} key={index}>
           • {location}
         </Text>
       ))}
-      <Text style={typographyStyles.headline}>Work</Text>
+      <Text style={typographyStyles.title}>Work</Text>
       <FlatList
         data={groupsArray}
         renderItem={renderItem}

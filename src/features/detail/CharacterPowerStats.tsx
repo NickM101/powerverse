@@ -9,60 +9,72 @@ import {typographyStyles} from '@theme/designTypography';
 const CharacterPowerStats = () => {
   return (
     <View style={styles.container}>
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Intelligence</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Intelligence</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Strength</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Strength</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Speed</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Speed</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Durability</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Durability</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Power</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Power</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
-      <View style={styles.titleSection}>
-        <Text style={typographyStyles.label}>Combat</Text>
-        <Text style={typographyStyles.label}>70</Text>
+      <View>
+        <View style={styles.titleSection}>
+          <Text style={typographyStyles.title}>Combat</Text>
+          <Text style={typographyStyles.title}>70</Text>
+        </View>
+        <ProgressBar
+          styleAttr="Horizontal"
+          indeterminate={false}
+          progress={0.7}
+        />
       </View>
-      <ProgressBar
-        styleAttr="Horizontal"
-        indeterminate={false}
-        progress={0.7}
-      />
     </View>
   );
 };
@@ -72,6 +84,7 @@ export default CharacterPowerStats;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: 'space-around',
     paddingVertical: pixelSizeVertical(spacing.sm),
     paddingHorizontal: pixelSizeHorizontal(spacing.sm),
   },
