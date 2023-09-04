@@ -12,15 +12,17 @@ import FastImage from 'react-native-fast-image';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 interface PublishersHeaderProps {
-  onShowBottomSheet: () => void;
+  onShow: boolean;
+  toggle: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const PublishersHeader: React.FC<PublishersHeaderProps> = ({
-  onShowBottomSheet,
+  onShow,
+  toggle,
 }) => {
   return (
     <View style={styles.headerContainer}>
-      <Pressable style={styles.headerLeft} onPress={onShowBottomSheet}>
+      <Pressable style={styles.headerLeft} onPress={() => toggle(!onShow)}>
         <FastImage
           style={imageStyle}
           source={require('../../../assets/images/marvel.png')}
@@ -34,13 +36,8 @@ const PublishersHeader: React.FC<PublishersHeaderProps> = ({
         />
       </Pressable>
       <View />
-      <TouchableOpacity style={styles.headerRight} onPress={onShowBottomSheet}>
-        <Icon
-          name={'notifications-outline'}
-          color={'white'}
-          size={28}
-          onPress={onShowBottomSheet}
-        />
+      <TouchableOpacity style={styles.headerRight} onPress={() => {}}>
+        <Icon name={'notifications-outline'} color={'white'} size={28} />
       </TouchableOpacity>
     </View>
   );
