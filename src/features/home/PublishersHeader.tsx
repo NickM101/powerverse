@@ -38,7 +38,7 @@ const PublishersHeader: React.FC<PublishersHeaderProps> = ({
         <Icon
           name={'notifications-outline'}
           color={'white'}
-          size={30}
+          size={28}
           onPress={onShowBottomSheet}
         />
       </TouchableOpacity>
@@ -50,7 +50,7 @@ export default PublishersHeader;
 
 const imageStyle: CustomImageStyle = {
   height: heightPixel(50),
-  width: widthPixel(100),
+  width: widthPixel(95),
 };
 
 const styles = StyleSheet.create({

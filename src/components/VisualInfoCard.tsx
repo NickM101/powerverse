@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     height: '90%',
-    top: '70%',
+    top: '65%',
   },
   description: {
     color: 'white',
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    bottom: 35,
+    bottom: 30,
   },
   dot: {
     width: widthPixel(35),

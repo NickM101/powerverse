@@ -16,7 +16,7 @@ const DetailScreen = () => {
           Wonder Woman
         </Text>
         <BlurView style={styles.blur} blurType="dark" blurAmount={5} />
-        <Text style={[typographyStyles.headline, styles.bottomText]}>
+        <Text style={[typographyStyles.title, styles.bottomText]}>
           Wonder woman
         </Text>
       </View>
