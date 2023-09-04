@@ -18,7 +18,6 @@ const CharacterCards = () => {
       />
       <View style={styles.textContainer}>
         <Text style={typographyStyles.label}>Buffy the Vampire Slayer</Text>
-        <Text style={[typographyStyles.subtitle, styles.text]}>Marvel</Text>
       </View>
     </View>
   );

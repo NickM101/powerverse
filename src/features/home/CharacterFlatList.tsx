@@ -3,7 +3,11 @@ import React, {useCallback} from 'react';
 import CharacterCards from '@components/CharacterCards';
 import SectionHeader from '@components/SectionHeader';
 
-const CharacterFlatList = () => {
+interface CharacterFlatListProps {
+  headerTitle: string;
+}
+
+const CharacterFlatList: React.FC<CharacterFlatListProps> = ({headerTitle}) => {
   const renderItem: ListRenderItem<number> = useCallback(
     _ => <CharacterCards />,
     [],
@@ -11,7 +15,7 @@ const CharacterFlatList = () => {
 
   return (
     <View>
-      <SectionHeader />
+      <SectionHeader title={headerTitle} />
       <FlatList
         horizontal
         data={[1, 2, 3, 4, 5, 6, 7]}

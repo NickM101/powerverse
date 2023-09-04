@@ -17,9 +17,9 @@ const HomeScreen = () => {
     <ScrollView style={globalStyles.container}>
       <PublishersHeader onShowBottomSheet={handleShowBottomSheet} />
       <ComicCharacterCarousel />
-      <CharacterFlatList />
-      <CharacterFlatList />
-      <CharacterFlatList />
+      <CharacterFlatList headerTitle="Marvel Comics" />
+      <CharacterFlatList headerTitle="DC Comics" />
+      <CharacterFlatList headerTitle="Top Characters" />
       <PublisherBottomSheet ref={bottomSheetRef} />
     </ScrollView>
   );
