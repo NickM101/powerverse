@@ -1,5 +1,12 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  ListRenderItem,
+  ListRenderItemInfo,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import LinearGradient from 'react-native-linear-gradient';
 import {heightPixel, widthPixel} from '@theme/normalize';
@@ -8,9 +15,10 @@ import {Window_Width} from '@lib/constants';
 import {borderRadii} from '@theme/designSystem';
 import {CustomImageStyle} from '../types/declerative';
 
-const VisualInfoCard = () => {
-  const items = [1, 2, 3, 4, 5];
-
+interface VisualInfoCardProps {
+  item: number;
+}
+const VisualInfoCard: ListRenderItem<VisualInfoCardProps> = ({item, index}) => {
   return (
     <View style={imageStyle}>
       <FastImage
@@ -30,7 +38,7 @@ const VisualInfoCard = () => {
           <Text style={typographyStyles.button}>Learn More</Text>
         </TouchableOpacity>
       </View>
-      <View style={styles.dotGroup}>
+      {/* <View style={styles.dotGroup}>
         {items.map((_, index) => (
           <View
             key={index}
@@ -41,7 +49,7 @@ const VisualInfoCard = () => {
             ]}
           />
         ))}
-      </View>
+      </View> */}
     </View>
   );
 };

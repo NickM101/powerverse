@@ -27,7 +27,7 @@ const RootNavigator = () => {
     <NavigationContainer theme={mode}>
       <RootStack.Navigator
         screenOptions={{headerShown: false}}
-        initialRouteName="Detail">
+        initialRouteName="Home">
         <RootStack.Screen name="Home" component={HomeScreen} />
         <RootStack.Screen name="Detail" component={DetailScreen} />
         <RootStack.Screen name="Search" component={SearchPage} />
