@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start --reset-cache",
     "connect": "adb reverse tcp:8081 tcp:8081",
+    "emulator": "emulator @Pixel_3a_API_34_extension_level_7_x86_64",
     "test": "jest"
   },
   "dependencies": {

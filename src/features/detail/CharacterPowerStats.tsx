@@ -11,8 +11,8 @@ const CharacterPowerStats = () => {
     <View style={styles.container}>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Intelligence</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Intelligence</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -22,8 +22,8 @@ const CharacterPowerStats = () => {
       </View>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Strength</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Strength</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -33,8 +33,8 @@ const CharacterPowerStats = () => {
       </View>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Speed</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Speed</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -44,8 +44,8 @@ const CharacterPowerStats = () => {
       </View>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Durability</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Durability</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -55,8 +55,8 @@ const CharacterPowerStats = () => {
       </View>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Power</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Power</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -66,8 +66,8 @@ const CharacterPowerStats = () => {
       </View>
       <View>
         <View style={styles.titleSection}>
-          <Text style={typographyStyles.title}>Combat</Text>
-          <Text style={typographyStyles.title}>70</Text>
+          <Text style={typographyStyles.label}>Combat</Text>
+          <Text style={typographyStyles.label}>70</Text>
         </View>
         <ProgressBar
           styleAttr="Horizontal"
@@ -91,5 +91,6 @@ const styles = StyleSheet.create({
   titleSection: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    marginVertical: pixelSizeVertical(10),
   },
 });

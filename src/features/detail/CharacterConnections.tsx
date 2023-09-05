@@ -20,8 +20,10 @@ const CharacterConnections = () => {
 
     return (
       <View style={styles.item}>
-        <Text style={typographyStyles.title}>• {parts[0]}</Text>
-        <Text style={[typographyStyles.subtitle, styles.subtitle]}>
+        <Text style={[typographyStyles.title, {fontWeight: 'bold'}]}>
+          • {parts[0]}
+        </Text>
+        <Text style={[typographyStyles.subtext, styles.subtitle]}>
           {parts.slice(1).join(' ')}
         </Text>
       </View>

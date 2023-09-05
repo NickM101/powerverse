@@ -8,32 +8,25 @@ interface ModalSelectorProps {
 
 const ModalSelector: React.FC<ModalSelectorProps> = ({onShow, toggle}) => {
   return (
-    <View style={styles.centeredView}>
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={onShow}
-        onRequestClose={() => {
-          Alert.alert('Modal has been closed.');
-          toggle(!onShow);
-        }}>
-        <View style={styles.centeredView}>
-          <View style={styles.modalView}>
-            <Text style={styles.modalText}>Hello World!</Text>
-            <Pressable
-              style={[styles.button, styles.buttonClose]}
-              onPress={() => toggle(!onShow)}>
-              <Text style={styles.textStyle}>Hide Modal</Text>
-            </Pressable>
-          </View>
+    <Modal
+      animationType="slide"
+      transparent={true}
+      visible={onShow}
+      onRequestClose={() => {
+        Alert.alert('Modal has been closed.');
+        toggle(!onShow);
+      }}>
+      <View style={styles.centeredView}>
+        <View style={styles.modalView}>
+          <Text style={styles.modalText}>Hello World!</Text>
+          <Pressable
+            style={[styles.button, styles.buttonClose]}
+            onPress={() => toggle(!onShow)}>
+            <Text style={styles.textStyle}>Hide Modal</Text>
+          </Pressable>
         </View>
-      </Modal>
-      <Pressable
-        style={[styles.button, styles.buttonOpen]}
-        onPress={() => toggle(true)}>
-        <Text style={styles.textStyle}>Show Modal</Text>
-      </Pressable>
-    </View>
+      </View>
+    </Modal>
   );
 };
 
