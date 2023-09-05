@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import React, {useCallback, useRef, useState} from 'react';
 import {
   FlatList,
   ListRenderItem,
@@ -16,8 +16,13 @@ import {CustomImageStyle} from '../../types/declerative';
 import FastImage from 'react-native-fast-image';
 import LinearGradient from 'react-native-linear-gradient';
 
+let CurrentSlide = 0;
+let IntervalTime = 4000;
+
 const ComicCharacterCarousel = () => {
   const items = [1, 2, 3, 4, 5];
+
+  const flatListRef = useRef();
 
   const [sliderState, setSliderState] = useState({
     item: 0,
@@ -32,8 +37,6 @@ const ComicCharacterCarousel = () => {
       offset: item * Window_Width,
     });
   };
-
-  console.log('Item number', sliderState.item);
 
   const renderItem: ListRenderItem<number> = useCallback(
     ({item, index}) => (
